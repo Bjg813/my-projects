@@ -1,6 +1,98 @@
 /***************************************
            Section-four.css
 ***************************************/
+
+.grid-section-four {
+    height: 50rem;
+    width: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+.container:hover, .container:focus {
+      color: transparent;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: 25rem;
+  }
+  
+.container-image-engagers-title {
+      position: absolute;
+      top: 84%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      text-align: left;
+  }
+
+.engagers-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.engagers-business-position {
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-top: .6rem;
+}
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #7E9500;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    opacity: .8;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    padding: 0rem;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 73%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin: -7rem;
+    font-weight: 400;
+    font-size: .8rem;
+  }
+
+.overlay-button {
+    margin-top: 18rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: transparent;
+    border: solid #ffffff 2px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.overlay-button:hover, .overlay-button:focus {
+    background-color: #ffffff;
+    color: #7E9500;
+}
+
 /* large screens */
 @media only screen and (min-width: 568px) { 
     .grid-section-four {
@@ -8,3 +100,6 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+    
+        
+       
