@@ -1,0 +1,109 @@
+
+/***************************************
+            Section-two.css
+***************************************/
+
+.section-two {
+    position: relative;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 
+    fixed = parallax
+    scroll = normal 
+    */
+    background-attachment: scroll;
+    padding-top: 12rem;
+    background-image: url('../images/background-with-prism.jpg');
+    min-height: 100%;
+}
+
+.brochure-card-overlay-1 {
+    background-color: #ffffff;
+    padding: 0 2rem 0 2rem;
+    border-top: solid  #2f3b77 10px;
+}
+
+.brochure-card-overlay-1 h2 {
+    font-size: 	1.2rem;
+    color: #2f3b77;
+}
+
+.brochure-card-overlay-1 p {
+    font-size: 	.6rem;
+}
+
+.brochure-card-overlay-1 ul {
+    color: #2f3b77;
+}
+
+.section-two-list-items-container-1 li {
+    list-style-image: url('../images/heart-list-item.jpg');
+}
+
+.section-two-list-items-container-2 {
+    list-style-image: url('../images/x-list-item.jpg');
+}
+
+/* Large Screens */
+@media only screen and (min-width: 568px) {
+    .brochure-card-overlay-1 {
+    background-color: #ffffff;
+    padding: 2rem 5rem 2rem 5rem;
+    margin: 16rem 15.5rem 0 15.5rem;
+    border-top: solid  #2f3b77 20px;
+    }
+
+    .brochure-card-overlay-1 h2 {
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+        font-weight: 900;
+    }
+
+    .brochure-card-overlay-1 p {
+        font-size: 	0.85rem;
+        line-height: 1.3rem;
+        color: #2f3b77;
+    }
+
+    .brochure-card-overlay-1 ul {
+        font-size: 1rem;
+        text-align: center;
+    } 
+
+    .brochure-card-overlay-1 li {
+        font-size: .96rem;
+        text-align: left;
+        padding: 0 0 0 2rem;
+        line-height: 2rem;
+        font-family: Helvetica Neue;
+        color: #707070;
+        font-weight: 400;
+    } 
+
+    .brochure-card-overlay-1 li span {
+        margin-left: 1.1rem;
+    }
+
+    .section-two-grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 12rem;
+        grid-template-areas: 
+            "allpha allpha allpha  bravo bravo bravo"
+            "allpha allpha allpha  bravo bravo bravo";
+        }
+
+    .section-two-grid-container hr {
+        opacity: 0.4;
+    }
+        .section-two-list-items-container-1 {
+            grid-area: allpha;
+        }
+
+        .section-two-list-items-container-2 {
+            grid-area: bravo;
+        }
+
+    }
+

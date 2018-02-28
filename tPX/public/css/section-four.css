@@ -1,0 +1,10 @@
+/***************************************
+           Section-four.css
+***************************************/
+/* large screens */
+@media only screen and (min-width: 568px) { 
+    .grid-section-four {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

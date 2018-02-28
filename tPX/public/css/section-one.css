@@ -1,0 +1,53 @@
+.section-one {
+    font-size: .7rem;
+    padding: 3rem;
+    color: #2f3b77;
+}
+
+.section-one h2 {
+    margin-bottom: -2rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.section-one-heading {
+    color: #7E9500;
+    font-weight: 900;
+}
+
+.section-one-heading-paragraph {
+    margin-bottom: 1.5rem;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.section-one p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.section-one img {
+    width: 100%;
+    height: auto;
+}
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 568px) {
+
+    .section-one h2 {
+        font-size: 2rem;
+        margin-bottom: -2.5rem;
+    }
+
+    .section-one-heading-paragraph {
+        font-size: 1.2rem;    
+    }
+    
+    .section-one p {
+        padding: 0 15.7rem 0 15.7rem;
+        line-height: 1.5rem;
+        font-size: .8rem;
+    }
+
+}

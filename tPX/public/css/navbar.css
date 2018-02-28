@@ -1,0 +1,89 @@
+/***************************************
+                navbar.css
+***************************************/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    height: 69px;
+    z-index: 10000;
+}
+
+.navbar.scrolled {
+    background-color: #2f3b77 !important;
+    transition: background-color 400ms linear;
+}
+
+.navbar ul li a.scrolled {
+    color: #ffffff;
+}
+ 
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .modal-btn {
+    float: right;
+    padding: 27px 35px 29px 35px;
+    text-align: center;
+    margin: -9px -1px 0 15px;
+    background-color: #7E9500;
+    border-left-color: #7E9500;
+    transition: background-color .5s ease-out;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    -webkit-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
+    box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
+}
+
+.navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
+    background-color:  #2f3b77;
+    cursor: pointer;
+    border-left-color: #2f3b77;
+}
+
+.navbar .logo-image-lg {
+    float: left;
+    font-size: 18px;
+    margin-left: -42px;
+}
+
+.navbar .logo-image-sm {
+    margin: 10px 0 10px 10px;
+    float: left;
+}
+
+.navbar ul {
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+/*********************************
+        typography
+*********************************/
+
+
+.navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
+    color: #7E9500;;
+}
+
+.navbar .logo-image-sm {
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #000000;
+}

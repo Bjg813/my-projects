@@ -1,0 +1,150 @@
+/***************************************
+                style.css
+***************************************/
+
+html, body {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    font-size: 1em;
+    /* font-weight: 0; */
+    line-height: 1.0em;
+    color: #666666;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .slider-wrap span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a, button {
+    font-family: 'lato', sans-serif;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+}
+
+a, button {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.image-section-3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Section three */
+.section-three {
+    padding: 2em 1em 1em;
+}
+
+.section-three ul {
+    margin: 0;
+    padding: 0;
+}
+
+.section-three li {
+    margin-bottom: 1rem;
+    background: #ffffff;
+    color: #333333;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+/* Section five */
+.section-five .box {
+    padding: 2rem;
+    color: #ffffff;
+    background: #333333;
+}
+
+.section-five .box:first-child {
+    background: #2690d4;
+}
+
+/***************************************
+             Media Queries 
+****************************************/
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 568px) {
+    .section {
+        padding: 50px 80px;
+    }
+
+    .open-slide {
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
+    }
+    
+    .content-wrap, .section-three ul {
+        grid-column: 2 / 4;
+    }
+
+    .box, #main-footer div {
+        grid-column: span 1;
+    }
+
+    .section-two .content-text {
+        columns: 2;
+        column-gap: 2rem;
+    }
+
+    .section-two .content-text p {
+        padding-top: 0;
+    }
+
+    .section-three ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-three li {
+        width: 31%;
+    }
+}
+
+/* small screens */
+@media only screen and (max-width: 568px) {
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+
+    .ptext .border {
+        background-color: transparent;
+        padding: 5px;
+    }
+    .ptext {
+        font-size: 1.5rem;
+    }
+
+    .ptext p {
+        font-size: .8rem;
+    }
+
+}
+
+
+
+
+
