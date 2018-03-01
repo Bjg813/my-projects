@@ -1,121 +1,94 @@
 /***************************************
             Carousel.css
 ***************************************/
-.carousel-with-arrows {
-	width: 380px;
-	height: 550px;
-	margin: 0 auto;
-	text-align: center;
-}
+.carousel-section {
+	position: relative;
+	min-height: 100%;
+	max-width: 100%;
+	margin-bottom: 100rem;
+  }
 
-.carousel-with-arrows h1 {
-		color: pink;
-		font-size: 32px;
-	}
+  .carousel-container {
+	  margin-top: 100rem;
+	  width: 1rem;
+	  
+  }
   
-  .carousel-left-and-right-arrows {
-		display: block;
-		position: relative;
-		top: 210px;
+  .carousel li {
+	width: 26.5625rem;
+	height: 17.5625rem;
+	background: #333;
+	display: inline-block;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	overflow: hidden;
   }
-
-  .carousel-left-and-right-arrows input {
-			border: 2px solid #ffffff;
-			width: 30px;
-			height: 30px;
-			border-radius: 0%;
-			position: absolute;
-      background: Indigo;
-      color: White;
-      font-weight: bold;
-      padding-top: 3px;
-        }
-        #prev {
-			left: -140px;
-		}
-
-		#next {
-			right: -140px;
-		}
-	
-
-.carousel {
-	margin-top: -10px;
-}
-
-	.carousel li {
-		-webkit-transition: all .5s ease-in-out;
-		-moz-transition: all .5s ease-in-out;
-		transition: all .5s ease-in-out;
-		list-style-type: none;
-		position: absolute;
+  
+  .carousel li p {
+	color: white;
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 1.175em;
   }
-		.carousel:before {
-			content: url("../img/icone.png");
-			display: block;
-			position: relative;
-			top: 30px;
-		}
-
-		.article-card {
-			background: #ffffff;
-			text-align: center;
-			width: 300px;
-			height: 400px;
-			background: #ffffff;
-			display: inline-block;
-			border: 2px solid #ffffff;
-			border-radius: 15px;
-			overflow: hidden;
-			box-shadow: 0px 2px 3px #000000;
-    }
-    
-.carousel-image  {
-  margin-top: 20px;
-}
-	
-.main-pos {
+  
+  .items {
+	position: absolute;
+  }
+  
+  .main-pos {
+	margin-left: 2em !important;
 	z-index: 3000;
-}
-
-.left-pos {
-	margin-left: -8em !important;
+	/*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
+  }
+  
+  .left-pos {
+	margin-left: -17em !important;
 	z-index: 1000;
-	-webkit-transform: scale(.75) perspective( 1000px ) rotateY( 35deg );
-	-moz-transform: scale(.75) perspective( 1000px ) rotateY( 35deg );
-	transform: scale(.75) perspective( 1000px ) rotateY( 35deg );
-}
-
-.left-pos-2 {
-	margin-left: -13em !important;
-	z-index: 500;
-	-webkit-transform: scale(.5) perspective( 1000px ) rotateY( 35deg );
-	-moz-transform: scale(.5) perspective( 1000px ) rotateY( 35deg );
-	transform: scale(.5) perspective( 1000px ) rotateY( 35deg );
-}
-
-.back-pos {
-  opacity: 0;
+	-webkit-transform: scale(.75);
+	-moz-transform: scale(.75);
+	transform: scale(.75);
+  }
+  
+  .back-pos {
+	margin-left: 2em !important;
+	opacity: .05;
 	-webkit-transform: scale(.5);
 	-moz-transform: scale(.5);
 	transform: scale(.5);
-}
-
-.right-pos {
-	margin-left:  8em !important;
+  }
+  
+  .right-pos {
+	margin-left:  21em !important;
 	z-index: 1000;
-	-webkit-transform: scale(.75) perspective( 1000px ) rotateY( -35deg );
-	-moz-transform: scale(.75) perspective( 1000px ) rotateY( -35deg );
-	transform: scale(.75) perspective( 1000px ) rotateY( -35deg );
+	-webkit-transform: scale(.75);
+	-moz-transform: scale(.75);
+	transform: scale(.75);
+  }
+
+  .prev-next-buttons button {
+	background-color: #2f3b77;
+	color: #ffffff;
+	padding: 1.2rem;
+	border: black;
+  }
+
+.fa-angle-left, .fa-angle-right {
+	font-size: 2rem;
 }
+  
+ .prev-button {
+	 /* top: 33%; */
+	 position: absolute;
+	 top: 29%;
+	 left: 17%;
+	 z-index: 1000;
+ }
 
-.right-pos-2 {
-	margin-left:  13em !important;
-	z-index: 500;
-	-webkit-transform: scale(.5) perspective( 1000px ) rotateY( -35deg );
-	-moz-transform: scale(.5) perspective( 1000px ) rotateY( -35deg );
-	transform: scale(.5) perspective( 1000px ) rotateY( -35deg );
-}
-
-
-
+ .next-button {
+	 position: absolute;
+	 top: 29%;
+	 left: 150%;
+	 z-index: 1000;
+ }
