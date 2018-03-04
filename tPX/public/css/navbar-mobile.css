@@ -1,63 +1,134 @@
-/***************************************
-            navbar-mobile.css
-***************************************/
-.side-nav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-    margin-top: 4.3rem;
+.reveal {
+	opacity: .85;
+	display: block;
+	pointer-events: auto;
+	visibility: visible;
 }
 
-.side-nav a {
-    padding: 10px 10px 10px 30px;
+.hamburger-shell {
+	margin: 0;
+	position: fixed;
+	overflow: hidden;
+	width: 70px;
+	height: 100px;
+	overflow: auto;
+	left: calc(100% - 100px);
+	top: -.79rem;
+}
+
+.top, .middle{
+	position: absolute;
+	width: 62px;
+	height: 10px;
+	background-color: black;
+	transition: all 350ms ease-in-out;
+	top: 20px;
+}
+
+.middle {
+	top: 40px;
+}
+
+#menu {
+	position: fixed;
+	left: calc(100% - 292px);
+	top: 10px;
+	color: black;
+	display: none;
+	margin: 120px 30px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: 100;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #333;
+	padding: 24px;
+	width: 200px;
+    text-align: right;
+    background-color: rgba(47, 59, 119, 0.9);
+}
+
+#menu a li {
+	text-decoration: none!important;
+	padding-bottom: 10px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid black;
+	list-style: none;
+	color: #ffffff;
+	transition: all 150ms ease;
+}
+
+#menu a li:hover {
+	color: #00abff;
+	padding-right: 3px;
+}
+
+#menu a li:hover:after {
+}
+
+#menu a {
     text-decoration: none;
-    display: block;
-    transition: 0.3s;
-}
-
-.side-nav .btn-close {
-    position: absolute;
-    top: 0;
-    right: 22px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-
-#main {
-    transition: margin-left 0.5s;
-    padding: 20px;
-    overflow: hidden;
-    width: 100%;
-}
-
-/*************************************
-            typography
-*************************************/
-.side-nav {
-    background-color: #2f3b77;
-    opacity: 0.9;
-}
-
-.side-nav a {
-    font-size: 22px;
+    font-size: 1rem;
     color: #ffffff;
 }
 
-.side-nav a:hover {
-    color: #ffffff;
+.rotate {
+	transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	top: 30px;
+	background-color: #ffffff;
+	height: 2px;
+}
+
+.rotate-back {
+	transform: rotate(-225deg);
+	-webkit-transform: rotate(-225deg);
+	top: 30px;
+	background-color: #ffffff;
+	height: 2px;
+}
+
+.top {
+-webkit-animation-delay: 100ms;
+}
+
+.middle {
+-webkit-animation-delay: 250ms;
+}
+
+.bottom {
+	-webkit-animation-delay: 400ms;
+}
+
+.menu-name {
+	font-family: Verdana;
+	font-weight: 900;
+	color: black;
+	font-size: 19.5px;
+	text-decoration: none;
+	position: absolute;
+	top: 56px;
+	left: -1px;
+	transition: all 350ms;
+}
+
+.bump {
+	top: 64px;
+	color: #ffffff;
 }
 
 /* jQuery mobile hamburger svg */
 nav span a svg path.scrolled {
     stroke: #ffffff;
 }
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 990px) {
+    a.hamburger-shell {
+        display: none;
+    }
+}
+
 
 /*************************************** 
         small screens 

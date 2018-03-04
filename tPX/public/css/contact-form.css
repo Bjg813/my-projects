@@ -21,9 +21,9 @@
 	}
 
 	.company-info {
-		background: #9e0b0f;
+		background: #ffffff;
 		text-align: center;
-		color: #ffffff;
+		color: #2f3b77;
 	}
 
 	.contact {
@@ -52,11 +52,11 @@
 	.contact form button, .contact form input, .contact form textarea {
 		width: 100%;
 		padding: 0.5rem 0 0.5rem 0;
-		border: 1px solid #9e0b0f;
+		border: 1px solid #2f3b77;
 	}
 
 	.contact form button {
-		background: #9e0b0f;
+		background: #2f3b77;
 		border: 0;
 		text-transform: uppercase;
 		color: #ffffff;
@@ -78,8 +78,31 @@
 		display: none;
 	}
 
+	.modal-logo-insight {
+		color: #2f3b77;
+		font-size: 1.2rem;
+		font-weight: 100;
+	}
+
+	.modal-logo-insight span {
+		font-weight: 900;
+		color: #7E9500;
+		margin-left: -.3rem;
+	}
+
+	.modal-logo-paragraph {
+		font-weight: 300;
+		color: #4B4B4B;
+		margin-top: -1rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact textarea, .contact input {
+		font-size: 1rem;
+	}
+
 	/* LARGE SCREEN */
-	@media(min-width:700px) {
+	@media(min-width:1210px) {
 		.wrapper {
 			display: grid;
 			grid-template-columns: 1fr 2fr;
@@ -89,7 +112,21 @@
 			padding: 2rem;
 		}
 
+		.company-info {
+			background: #2f3b77;
+		}
+
 		.company-info h3, .company-info ul, .brand {
 			text-align: left;
+		}
+
+		.modal-logo-insight {
+			font-size: 1.4rem;
+			color: #ffffff;
+		}
+
+		.modal-logo-paragraph {
+			color: #ffffff;
+			font-weight: 100;
 		}
 	}

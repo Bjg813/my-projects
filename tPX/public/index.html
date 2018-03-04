@@ -26,33 +26,37 @@
 <!-- beginning of navbar -->
 <header class="page-header">
     <nav class="navbar">
-        <span class="open-slide">
-            <a href="#" onclick="openSideMenu()">
-                <svg width="30" height="30">
-                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-                    <path d="M0, 14 30,14" stroke="#fff" stroke-width="5"/>
-                    <path d="M0, 23 30,23" stroke="#fff" stroke-width="5"/>
-                </svg>
-                <a class="logo-image-sm" href="#">Perspectives</a>
-            </a>
-        </span>
+        <a class="hamburger-shell">
+            <div class="hamb top"></div>
+                <div class="hamb middle"></div>
+            <div class="menu-name">MENU</div>
+        
+        <ul id="menu">
+                <a href="#about"> <li>About</li></a>
+                <a href="#agenda"> <li>Agenda</li></a>
+                <a href="#engagers"> <li>Engagers</li></a>
+                <a href="#location"> <li>Location</li></a>
+                <a href="#sustainability"> <li>Sustainability</li></a>
+                <a href="#partners"> <li>Partners</li></a>
+        </ul>
+        </a>	
 
         <ul class="navbar-nav" id="top-menu">
             <button class="modal-btn" id="modalBtn">Request Invite</button>
             <li class="partners-marker active">
-                <a href="#">Partners</a>
+                <a href="#partners">Partners</a>
             </li>
             <li class="sustainability-marker">
-                <a href="#">Sustainability</a>
+                <a href="#sustainability">Sustainability</a>
             </li>
             <li class="location-marker">
-                <a href="#">Location</a>
+                <a href="#location">Location</a>
             </li>
             <li class="engagers-marker">
-                <a href="#">Engagers</a>
+                <a href="#engagers">Engagers</a>
             </li>
             <li class="agenda-marker">
-                <a href="#">Agenda</a>
+                <a href="#agenda">Agenda</a>
             </li>
             <li class="about-marker">
             <a href="#about">About</a>
@@ -66,15 +70,14 @@
 <!-- end of navbar -->
 
     <!-- beginning of side-nav menu for Mobile -->
-    <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
-        <a href="#partners">Partners</a>
-        <a href="#sustainability">Sustainability</a>
-        <a href="#location">Location</a>
-        <a href="#engagers">Engagers</a>
-        <a href="#agenda">Agenda</a>
-        <a href="#about">About</a>
-    </div>
+   
+
+
+
+
+
+
+
     <!-- end of side-nav menu for Mobile -->
 </header> 
 
@@ -90,7 +93,7 @@
                     <div class="hero-date-location">
                         <p><span class="hero-date">October 9-11</span> <br/><span class="hero-location-text">Zion National Park</span></p>
                     </div>
-                        <button class="hero-button">Request Invite</button>
+                        <button class="hero-button" id="modalBtn-1">Request Invite</button>
                 </div>
                 </div>
                 <div class="hero-item-5">
@@ -158,12 +161,11 @@
                             <li>The same content and stories you’ve already heard</li>
                         </div>
                     </div>
-
-                    <h1 class="brochere-card-overlay-bottom-agenda">Agenda</h1>
+                    <h1 class="brochere-card-overlay-bottom-agenda" id="agenda">Agenda</h1>
 
                 <div class="wrapper-agenda">
                         <div class="box d"><img src="../images/agenda-image-1.jpg" alt=""></div>
-                        <div class="box f"><h4 class="agenda-day">DAY 1 </h4> <br><h4 class="agenda-title">Align</h4></div>
+                        <div class="box f"><h4 class="agenda-day">DAY 1 </h4> <br><h4 class="agenda-title"></h4></div>
                         <div class="box right right-top-stars"><h4>Understand <br> your potential <br> for impact</h4></div>
                 </div>
                 <div class="wrapper-agenda">
@@ -186,14 +188,15 @@
                     </h4>
                 </div>
                 <p class="brochure-card-overlay-bottom-paragraph">All meals + drinks, adventures and conversations are included. </p>
-                    <button class="brochure-card-overlay-bottom-button">REQUEST INVITE</button>
+                    <button class="brochure-card-overlay-bottom-button" id="modalBtn-2">REQUEST INVITE</button>
             </div>
-        
+            <!-- begin engagers banner -->
                 <div class="engagers-text"><h2>Engagers</h2><br><p>Coming soon</p>
-                    <div class="engagers-container">
+                    <div class="engagers-container" id="engagers">
                         
                     </div>
                 </div>
+            <!-- end engagers banner -->
         </section>
         <!-- end section two -->
     
@@ -269,7 +272,7 @@
     <!-- end section four -->
 
     <!-- start section five -->
-    <section class="carousel-section">
+    <section class="carousel-section" id="location">
         <h1>The Location</h1>
         <p class="carousel-section-top">Under Canvas&reg Zion</p>
    <!-- Flickity HTML init -->
@@ -304,14 +307,16 @@
         </div>
       </div>
 
-      <p class="carousel-bottom-p">Located just 45 min from St. George, Utah and steps outside of Zion National Park. </p>
+      <p class="carousel-bottom-p" id="sustainability">Located just 45 min from St. George, Utah and steps outside of Zion National Park. </p>
       <p class="carousel-bottom-p-1">Under Canvas® Zion offers an extraordinary lodging experience just as fabulous as the park itself. This glamping camp in America’s gorgeous Southwest is located on 196 acres bordering Zion National Park in Utah. Just moments away from incredible trails, off the beaten path adventures, and spectacular views of the majestic red rocks that make Zion so famous. The camp seamlessly blends into its dramatic surroundings and our luxury tents offer guests the opportunity to enjoy Utah’s spectacular desert without giving up the comforts of home. 
         </p>
         <h4 class="carousel-bottom-h4">How to get there:</h4>
         <p class="carousel-bottom-p-2">The best way to attend the retreat will be to fly into St. George Regional Airport(SGU). St. George Regional Airport has service to major hubs such as Salt Lake City, Los Angeles, Denver, and Phoenix. We will coordinate transportation for attendees to the retreat location, approximately a 30-45 min drive. </p>
 </section>
 
-<section class="section-five">
+<!-- beginning section five -->
+<!-- partners -->
+<section class="section-five" id="partners">
     <h1>Partners</h1>
     <div class="partrners-flex-container">
         <div><img src="../images/partners-image-1.jpg" alt=""></div>
@@ -319,6 +324,9 @@
         <div class="partners-logo-3"><img src="../images/partners-image-3.jpg" alt=""></div>
     </div>
 </section>
+<!-- end section five -->
+
+<!-- end main section -->
 </main>
 
 <!-- footer -->
@@ -336,52 +344,45 @@
 <!-- MODAL CONTACT FORM -->
 <!-- start modal contact form -->
 <div class="modal" id="simpleModal">
-    <div class="modal-content">
-    <span class="closeBtn">&times;</span>
-        <div class="container-contact">
-            <h1 class="brand">Contact Us</h1>
-            <div class="wrapper">
-                <div class="company-info">
-                    <h3>Andrea Lepore</h3>
-                    <ul>
-                        <li><i class="fas fa-road"></i> Sacramento CA</li>
-                        <li><i class="fas fa-phone"></i> (555) 555-5555</li>
-                        <li><i class="fas fa-envelope"></i> test@acme.test</li>
-                    </ul>
-                </div>
-                <div class="contact">
-                    <h3>Email Us</h3>
-                    <div class="alert">Thank you your message has been sent</div>
-                    <form id="contactForm">
-                        <p>
-                          <label>Name</label>
-                          <input type="text" name="name" id="name" required>
-                        </p>
-                        <p>
-                          <label>Company</label>
-                          <input type="text" name="company" id="company">
-                        </p>
-                        <p>
-                          <label>Email Address</label>
-                          <input type="email" name="email" id="email" required>
-                        </p>
-                        <p>
-                          <label>Phone Number</label>
-                          <input type="text" name="phone" id="phone">
-                        </p>
-                        <p class="full">
-                          <label>Message</label>
-                          <textarea name="message" id="message" cols="" rows="5"></textarea>
-                        </p>
-                        <p class="full">
-                            <button type="submit">Submit</button>
-                        </p>
-                    </form>
+        <div class="modal-content">
+        <span class="closeBtn"></span>
+            <div class="container-contact">
+                <div class="wrapper">
+                    <div class="company-info">
+                        <h4 class="modal-logo-insight">INSIGHT <span>OUTSIDE</span></h4><p class="modal-logo-paragraph">a retreat on purpose</p>
+                    </div>
+                    <div class="contact">
+                        <div class="alert">Thank you your message has been sent</div>
+                        <form id="contactForm">
+                            <p class="full">
+                              <label>Name</label>
+                              <input type="text" name="name" id="name" required>
+                            </p>
+                            <p class="full">
+                              <label>Company</label>
+                              <input type="text" name="company" id="company">
+                            </p>
+                            <p class="full">
+                              <label>Email</label>
+                              <input type="email" name="email" id="email" required>
+                            </p>
+                            <p class="full">
+                              <label>Why do you want to attend?</label>
+                              <textarea name="attend" id="attend" cols="" rows="5"></textarea>
+                            </p>
+                            <p class="full">
+                              <label>What are your questions?</label>
+                              <textarea name="questions" id="questions" cols="" rows="5"></textarea>
+                            </p>
+                            <p class="full">
+                                <button type="submit">Request Invite</button>
+                            </p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <!-- end modal contact form -->
 
 <!-- Scripts: jQuery CDN first, then JS files, then Firebase CDN, then Fontawesome CDN -->
@@ -389,17 +390,20 @@
 <!-- jQuery cdn  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Script files: main.js first, then contactForm.js, then slider.js, -->
+<!-- Firebase Script -->
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/contactForm.js"></script>
 <script src="../js/modal.js"></script>
-<script src="../js/navbar-mobile.js"></script>
+<script src="../js/modal-1.js"></script>
+<script src="../js/modal-2.js"></script>
+<script src="../js/jquery-navbar-mobile.js"></script>
 <script src="../js/jquery-navbar.js"></script>
 <script src="../js/jquery-smooth-scroll.js"></script>
 <script src="../js/jquery-carousel.js"></script>
 
 
-<!-- Firebase Script -->
-<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+
 
 <!-- Fontawesome Script -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>

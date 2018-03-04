@@ -1,6 +1,7 @@
 /* external css: flickity.css */
 .carousel-section {
   margin: 105rem 0 0;
+  padding-top: .01rem;
 }
 
 .carousel {
@@ -92,6 +93,7 @@
 
   .carousel-section {
     margin: 0 15rem 0 15rem;
+    padding-top: .1rem;
   }
 
   .carousel-section h1 {
@@ -108,6 +110,7 @@
 
   .carousel-bottom-p {
     font-size: 1.2rem;
+    padding-top: 2rem;
   }
   
   .carousel-bottom-p-1 {

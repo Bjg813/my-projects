@@ -49,6 +49,7 @@
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
     font-size: 2.5rem;
+    padding-top: 2rem;
 }
 
 .wrapper-agenda {
@@ -207,7 +208,6 @@
         color: #2f3b77;;
     } 
 
-
     .brochure-card-overlay-1 ul img {
         margin-right: 4rem;
         margin-left: -1rem;
@@ -342,7 +342,8 @@
 
     .brochere-card-overlay-bottom-agenda {
         font-size: 4rem;
-        margin: 10rem 0 2.5rem 0;
+        margin: 8rem 0 2.5rem 0;
+        padding-top: 2rem;
     }
 
     .brochure-card-overlay-bottom-button {

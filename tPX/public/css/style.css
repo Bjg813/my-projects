@@ -76,10 +76,6 @@ ul {
         padding: 50px 80px;
     }
 
-    .open-slide {
-        display: none;
-    }
-
     .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;

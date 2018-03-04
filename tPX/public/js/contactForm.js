@@ -3,13 +3,13 @@
 ***************************************/
   
   // Initialize Firebase
-   var config = {
-    apiKey: "AIzaSyBcz_EVaJE14MzDGZNZnbVRviKrbewXKMM",
-    authDomain: "tpx-project.firebaseapp.com",
-    databaseURL: "https://tpx-project.firebaseio.com",
-    projectId: "tpx-project",
-    storageBucket: "tpx-project.appspot.com",
-    messagingSenderId: "907578274024"
+  var config = {
+    apiKey: "AIzaSyB3wJ8eEcgOv8KAd2lzQH1TycE6dTh5a4I",
+    authDomain: "insightoutside-e160a.firebaseapp.com",
+    databaseURL: "https://insightoutside-e160a.firebaseio.com",
+    projectId: "insightoutside-e160a",
+    storageBucket: "insightoutside-e160a.appspot.com",
+    messagingSenderId: "542485823813"
   };
   firebase.initializeApp(config);
 
@@ -27,11 +27,11 @@ function submitForm(e) {
     let name = getInputVal('name');
     let company = getInputVal('company');
     let email = getInputVal('email');
-    let phone = getInputVal('phone');
-    let message = getInputVal('message');
+    let attend = getInputVal('attend');
+    let questions = getInputVal('questions');
 
     // Save Message
-    saveMessage(name, company, email, phone, message);
+    saveMessage(name, company, email, attend, questions);
 
     // Show alert
     document.querySelector('.alert').style.display = 'block';
@@ -51,14 +51,14 @@ function getInputVal(id) {
 }
 
 // Save message to firebase
-function saveMessage(name, company, email, phone, message) {
+function saveMessage(name, company, email, attend, questions) {
     let newMessageRef = messageRef.push();
     newMessageRef.set({
         name: name,
         company: company,
         email: email,
-        phone: phone,
-        message: message
+        attend: attend,
+        questions: questions
     });
 }
 
