@@ -13,11 +13,16 @@ nav {
 }
 
 .navbar.scrolled {
-    background-color: #2f3b77 !important;
+    background-color: #2f3b77;
     transition: background-color 400ms linear;
+    opacity: .9;
 }
 
 .navbar ul li a.scrolled {
+    color: #ffffff;
+}
+
+.navbar ul li a.scrolled:hover {
     color: #ffffff;
 }
  
@@ -50,15 +55,33 @@ nav {
 }
 
 .navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
-    background-color:  #2f3b77;
+    background-color:  #3a4400;
     cursor: pointer;
-    border-left-color: #2f3b77;
+    border-left-color: #3a4400;
+    color: #ffffff;
 }
 
 .navbar .logo-image-lg {
     float: left;
     font-size: 18px;
     margin-left: -42px;
+    margin-top: -1.2rem;
+}
+
+p.logo-paragraph {
+    text-transform: lowercase;
+    font-size: .7rem;
+    font-weight: 100;
+}
+
+.logo-insight {
+    font-weight: 100;
+    margin-bottom: -1rem;
+}
+
+.navbar .logo-image-lg span {
+    margin-left: -.2rem;
+    font-weight: 700;
 }
 
 .navbar .logo-image-sm {
@@ -75,15 +98,10 @@ nav {
         typography
 *********************************/
 
-
-.navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
-    color: #7E9500;;
-}
-
 .navbar .logo-image-sm {
     font-size: 20px;
 }
 
 .navbar a:hover {
-    color: #000000;
+    color: #ffffff;
 }

@@ -11,6 +11,7 @@
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+    margin-top: 4.3rem;
 }
 
 .side-nav a {
@@ -40,12 +41,13 @@
             typography
 *************************************/
 .side-nav {
-    background-color: #111111;
+    background-color: #2f3b77;
     opacity: 0.9;
 }
 
 .side-nav a {
     font-size: 22px;
+    color: #ffffff;
 }
 
 .side-nav a:hover {
@@ -60,7 +62,7 @@ nav span a svg path.scrolled {
 /*************************************** 
         small screens 
 ***************************************/
-@media only screen and (max-width:568px) {
+@media only screen and (max-width:990px) {
     .navbar-nav {
         display: none;
     }

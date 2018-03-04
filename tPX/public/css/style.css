@@ -66,24 +66,12 @@ ul {
 .card-content {
     padding: 1.5rem;
 }
-
-/* Section five */
-.section-five .box {
-    padding: 2rem;
-    color: #ffffff;
-    background: #333333;
-}
-
-.section-five .box:first-child {
-    background: #2690d4;
-}
-
 /***************************************
              Media Queries 
 ****************************************/
 
 /* LARGE SCREEN */
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 990px) {
     .section {
         padding: 50px 80px;
     }
@@ -125,7 +113,7 @@ ul {
 }
 
 /* small screens */
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 990px) {
     .pimg1, .pimg2, .pimg3 {
         background-attachment: scroll;
     }

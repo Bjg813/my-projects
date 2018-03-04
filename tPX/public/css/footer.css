@@ -3,10 +3,30 @@
 ***************************************/
 #main-footer {
     padding: 2rem;
-    background: #000;
+    background: #2f3b77;
     color: #ffffff;
 }
 
 #main-footer a {
-    color: #2690d4;
+    color: #ffffff;
+}
+
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 990px) {
+    .footer-flex {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-vertical-line {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .footer-vertical-line {
+        display: none;
+    }
 }

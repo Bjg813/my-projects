@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Parallax Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <title>InsightOutside</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100, 200, 400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/svg-animation.css">
     <link rel="stylesheet" href="css/contact-form.css">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="css/section-one.css">
     <link rel="stylesheet" href="css/section-two.css">
     <link rel="stylesheet" href="css/section-four.css">
+    <link rel="stylesheet" href="css/section-five.css">
     <link rel="stylesheet" href="css/hero-section.css">
 </head>
 
@@ -27,9 +29,9 @@
         <span class="open-slide">
             <a href="#" onclick="openSideMenu()">
                 <svg width="30" height="30">
-                    <path d="M0,5 30,5" stroke="#2f3b77" stroke-width="5"/>
-                    <path d="M0, 14 30,14" stroke="#2f3b77" stroke-width="5"/>
-                    <path d="M0, 23 30,23" stroke="#2f3b77" stroke-width="5"/>
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0, 14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0, 23 30,23" stroke="#fff" stroke-width="5"/>
                 </svg>
                 <a class="logo-image-sm" href="#">Perspectives</a>
             </a>
@@ -53,10 +55,10 @@
                 <a href="#">Agenda</a>
             </li>
             <li class="about-marker">
-            <a href="#">About</a>
+            <a href="#about">About</a>
             </li>
-            <li class="perspectives-marker">
-            <a class="logo-image-lg" href="#main">Perspectives</a>
+            <li class="logo-marker">
+            <a class="logo-image-lg" href="#main"><h4 class="logo-insight">INSIGHT <span>OUTSIDE</span></h4><p class="logo-paragraph">a retreat on purpose</p></a>
             </li>
         </ul>
     </nav>
@@ -91,16 +93,8 @@
                         <button class="hero-button">Request Invite</button>
                 </div>
                 </div>
-            <div class="hero-item-4">
-                <div class="hero-vertical-line-top">
-                    <img src="images/vertical-line-1.jpg" alt="">
-                </div>
-            </div>
-            <div class="hero-item-5">
-                    <p class="hero-scroll-text"><a href="#"><a><em>scroll</em></a></p>
-            </div>
-                <div class="hero-vertical-line-bottom">
-                    <img src="images/vertical-line-1.jpg" alt="">
+                <div class="hero-item-5">
+                        <p class="hero-scroll-text"><a href="#about"><em>scroll</em></a></p>
                 </div>
             </div>
         </div>
@@ -108,120 +102,102 @@
 </div>
     <!-- end hero section -->
 
-    <!-- begin section one -->
 <main>
     <section class="section-one">
-        <h2>Insight<span class="section-one-heading">Outside</span></h2>
-            <h4 class="section-one-heading-paragraph">a retreat on purpose</h4>
-                <p>
-                        The 3 day retreat/conference is for senior corporate executives looking for an adventure - gaining new perspectives through hands on workshops, inspiring fireside keynotes, and reactivating creativity to maximize their role and company’s impact. Sometimes you need to get out of the office, set the refresh button, and realize the potential “purpose” has on elevating your business.
-                </p>
-                <br>
-                <p>
-                        Throughout the 3 days you will learn how to effectively integrate purpose throughout your organization, communicate to all of your different stakeholders, and activate those audiences -- all while exploring and experiencing one of the most beautiful locations in the world. 
-                </p>
-                <br>
-                <p>
-                        Purpose plays a bigger role in business than ever before. Purpose can be the keystone of your brand story or the X-factor for retention and recruitment efforts. To effectively engage this dynamic challenge, we as business leaders must adapt. We need to challenge ourselves to be more creative and effective – with both our content and our methods of delivery. 
-                </p>
-    </section>
-    <!-- end section one -->
+         <!-- start section-one container inside of hero-section -->
+         <div class="section-one-container" id="about">
+                <h2>Insight<span class="section-one-heading">Outside</span></h2>
+                    <h4 class="section-one-sub-heading">a retreat on purpose</h4>
+                        <p>
+                                The 3 day retreat/conference is for senior corporate executives looking for an adventure - gaining new perspectives through hands on workshops, inspiring fireside keynotes, and reactivating creativity to maximize their role and company’s impact. Sometimes you need to get out of the office, set the refresh button, and realize the potential “purpose” has on elevating your business.
+                        </p>
+                        <br>
+                        <p>
+                                Throughout the 3 days you will learn how to effectively integrate purpose throughout your organization, communicate to all of your different stakeholders, and activate those audiences -- all while exploring and experiencing one of the most beautiful locations in the world. 
+                        </p>
+                        <br>
+                        <p>
+                                Purpose plays a bigger role in business than ever before. Purpose can be the keystone of your brand story or the X-factor for retention and recruitment efforts. To effectively engage this dynamic challenge, we as business leaders must adapt. We need to challenge ourselves to be more creative and effective – with both our content and our methods of delivery. 
+                        </p>
+                </div>
 
-    <!-- begin section two -->
-    <section class="section-two">
-        <div class="brochure-card-overlay-1">
-            <h2>Where</h2>
-                <p>A luxury camp at the edge of Zion National Park, Utah, called Urban Canvas.</p>
-            <h2>When</h2>
-                <p>October 9 - 11,2018</p>
-            <h2>Who attends:</h2>
-                <p>The retreat is for senior corporate executives who have an interest or are involved with broadly defined brand/corporate purpose. This could be leaders within marketing, HR, Sustainability/CSR, public affairs, and communications departments.</p>
-                <br>
-                <br>
-                <br>
-            <h2>You should come if</h2>
-            <div class="section-two-grid-container">
-                <div class="section-two-list-items-container-1">
-                    <ul><strong>...you like</strong></ul>
-                        <li>Luxury Camping, aka "Glamping"</li>
-                        <li>Local inspired food + Wine</li>
-                        <li>Hanging out with cool people</li>
-                        <li>Nicknames</li>
-                        <li>Outdoor activities</li>
-                        <li>Sunlight + Starlight + Moonlight</li>
-                        <li>Hands on workshop</li>
-                        <li>Engagers with unique backgrounds</li>
-                        <li>New ways to tell story, lead and <span>communicate</span></li>
-                    </div>
-                <div class="section-two-list-items-container-2">
-                    <ul><strong>...you don't like</strong></ul>
-                        <li>Chain hotels</li>
-                        <li>Bad coffee + continental breakfast</li>
-                        <li>15 minute networking breaks</li>
-                        <li>Name tags</li>
-                        <li>Sitting inside all day</li>
-                        <li>Fluorescent lighting</li>
-                        <li>Power Point</li>
-                        <li>The same 5 keynote presenters...</li>
-                        <li>The same content and stories <span>you’ve</span> already heard</li>
-                    </div>
-                </div>
-                <hr>
-                <h1 class="brochere-card-overlay-bottom-agenda">Agenda</h1>
-                <div class="flex-container">
-                    <div class="flex-card-item">
-                        <div class="agenda-day-box">
-                            <h4>Day 1</h4>
+    <!-- <section class="section-two" id=""> -->
+            <div class="brochure-card-overlay-1">
+                <h2>Where</h2>
+                    <p>A luxury camp at the edge of Zion National Park, Utah, called Urban Canvas.</p>
+                <h2>When</h2>
+                    <p>October 9 - 11,2018</p>
+                <h2>Who attends:</h2>
+                    <p>The retreat is for senior corporate executives who have an interest or are involved with broadly defined brand/corporate purpose. This could be leaders within marketing, HR, Sustainability/CSR, public affairs, and communications departments.</p>
+                    <br>
+                    <br>
+                <h2>You should come if</h2>
+                <div class="section-two-grid-container">
+                    <div class="section-two-list-items-container-1">
+                        <ul><img src="../images/heart-list-item.jpg" alt="an-heart-list-item"><strong>...you like</strong></ul>
+                            <li>Luxury Camping, aka "Glamping"</li>
+                            <li>Local inspired food + Wine</li>
+                            <li>Hanging out with cool people</li>
+                            <li>Nicknames</li>
+                            <li>Outdoor activities</li>
+                            <li>Sunlight + Starlight + Moonlight</li>
+                            <li>Hands on workshop</li>
+                            <li>Engagers with unique backgrounds</li>
+                            <li>New ways to tell story, lead and communicate</li>
                         </div>
-                        <div class="flex-card-item-box">
-                        <h3>Align</h3>
-                            <p>Understanding your current role and impact</p>
-                                <div class="flex-card-item-agenda-list">Adventure kick off</div>
-                                <div class="flex-card-item-agenda-list">Meet, Greet, Eat</div>
-                                <div class="flex-card-item-agenda-list">Fireside Keynote</div>
-                            <h4>Perspective on where you are now</h4>
+                    <div class="section-two-list-items-container-2">
+                        <ul><img src="../images/x-list-item.jpg" alt="an-x-list-item"><strong>...you don't like</strong></ul>
+                            <li>Chain hotels</li>
+                            <li>Bad coffee + continental breakfast</li>
+                            <li>15 minute networking breaks</li>
+                            <li>Name tags</li>
+                            <li>Sitting inside all day</li>
+                            <li>Fluorescent lighting</li>
+                            <li>Power Point</li>
+                            <li>The same 5 keynote presenters...</li>
+                            <li>The same content and stories you’ve already heard</li>
                         </div>
                     </div>
-                    <div class="flex-card-item">
-                            <div class="agenda-day-box">
-                                <h4>Day 2</h4>
-                            </div>
-                            <div class="flex-card-item-box">
-                            <h3>Activate</h3>
-                                <p>Developing the roadmap for impact</p>
-                                    <div class="flex-card-item-agenda-list">Reflect (yoga or meditation) optional</div>
-                                    <div class="flex-card-item-agenda-list">Adventure (hiking, biking, river activities)</div>
-                                    <div class="flex-card-item-agenda-list">Engager session</div>
-                                    <div class="flex-card-item-agenda-list">Purpose workshop</div>
-                                    <div class="flex-card-item-agenda-list">Stargaze with SpaceX</div>
-                            <h4>How to activate purpose through all the different parts of your organization</h4>
-                            </div>
-                        </div>
-                        <div class="flex-card-item">
-                                <div class="agenda-day-box">
-                                    <h4>Day 3</h4>
-                                </div>
-                                <div class="flex-card-item-box">
-                                <h3>Communicate</h3>
-                                    <p>Telling your story of impact</p>
-                                        <div class="flex-card-item-agenda-list">Reflect (yoga or meditation) optional</div>
-                                        <div class="flex-card-item-agenda-list">Adventure (hiking, biking, river activities)</div>
-                                        <div class="flex-card-item-agenda-list">Engager session</div>
-                                        <div class="flex-card-item-agenda-list">Communications workshop</div>
-                                <h4>Return to civilization ready for impact</h4>
-                            </div>
-                        </div>
+
+                    <h1 class="brochere-card-overlay-bottom-agenda">Agenda</h1>
+
+                <div class="wrapper-agenda">
+                        <div class="box d"><img src="../images/agenda-image-1.jpg" alt=""></div>
+                        <div class="box f"><h4 class="agenda-day">DAY 1 </h4> <br><h4 class="agenda-title">Align</h4></div>
+                        <div class="box right right-top-stars"><h4>Understand <br> your potential <br> for impact</h4></div>
                 </div>
-                <p class="brochure-card-overlay-bottom-paragraph">All meals, drinks, adventures and conversations are included. </p>
-                    <button class="brochure-card-overlay-bottom-button">REQUEST INVITE</button>
+                <div class="wrapper-agenda">
+                        <div class="box d"><img src="../images/agenda-image-2.jpg" alt=""></div>
+                        <div class="box f light-blue-bg"><h4 class="agenda-day">DAY 2 </h4> <br><h4 class="agenda-title">Activate</h4></div>
+                        <div class="box right"><h4>Developing <br> the roadmap</h4></div>
                 </div>
-                <h1 class="brochere-card-overlay-bottom-agenda">Engagers</h1>
-                <p class="brochere-card-overlay-bottom-agenda-paragraph">Coming soon</p>
+                <div class="wrapper-agenda">
+                        <div class="box d"><img src="../images/agenda-image-3.jpg" alt=""></div>
+                        <div class="box f dark-blue-bg"><h4 class="agenda-day">DAY 3 </h4> <br><h4 class="agenda-title">Communicate</h4></div>
+                        <div class="box right"><h4>Telling your <br> your story of impact</h4></div>
+                </div>
             </div>
-    </section>
-    <!-- end section two -->
-
-    <!-- beginning section four -->
+            <div class="reading-man-container">
+                <div class="reading-man-sketch-container"><img src="../images/reading-man.jpg" alt=""></div>
+            </div>
+            <div class="reading-mountains-paragraph">
+                    <h4>
+                            The days and nights will be filled with adventures, workshops, group activities, engagers, conversations, learnings and insight.
+                    </h4>
+                </div>
+                <p class="brochure-card-overlay-bottom-paragraph">All meals + drinks, adventures and conversations are included. </p>
+                    <button class="brochure-card-overlay-bottom-button">REQUEST INVITE</button>
+            </div>
+        
+                <div class="engagers-text"><h2>Engagers</h2><br><p>Coming soon</p>
+                    <div class="engagers-container">
+                        
+                    </div>
+                </div>
+        </section>
+        <!-- end section two -->
+    
+    <!-- beginning engagers section -->
     <section class="grid-section-four">
         <div class="container">
             <img src="../images/image-engagers-1.jpg" alt="Avatar" class="image">
@@ -294,49 +270,64 @@
 
     <!-- start section five -->
     <section class="carousel-section">
-        <div class="carousel-container">
-            <ul class="carousel">
-            <li class="items main-pos" id="1">
-                <img src="../images/image-carousel-1.jpg" alt="">
-            </li>
-            <li class="items right-pos" id="2">
-                <img src="../images/image-carousel-2.jpg"/>
-            </li>
-            <li class="items back-pos" id="3">
-                <img src="../images/image-carousel-3.jpg"/>
-            </li>
-            <li class="items back-pos" id="4"><iframe width="500" height="281" src="https://www.youtube.com/embed/szIEr2F61DU" frameborder="0" allowfullscreen></iframe></li>
-            <li class="items back-pos" id="5">
-                <iframe src="https://player.vimeo.com/video/19464611" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </li>
-            <li class="items back-pos" id="6">
-                <img src="http://woofie2.pixiq.com/files/cache/20030323_img_7465_3072_x_2048_619x413.jpg" />
-            </li>
-            <li class="items left-pos" id="7"><img src="http://www.mishes.com/wp-content/uploads/2011/12/FlickrMonday07.jpg"/>
-            </li>
-            </ul>
-        <span class="prev-next-buttons">
-            <div class="prev-button"><button id="prev"><i class="fas fa-angle-left"></i></button></div>
-            <div class="next-button"><button id="next"><i class="fas fa-angle-right"></i></button></div>
-        </span>
+        <h1>The Location</h1>
+        <p class="carousel-section-top">Under Canvas&reg Zion</p>
+   <!-- Flickity HTML init -->
+<div class="carousel js-flickity" data-flickity='{ "initialIndex": 1 , "wrapAround": true}'>
+        <!-- images from unsplash.com -->
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-1.jpg" alt="orange tree" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-2.jpg" alt="submerged" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-3.jpg" alt="look-out" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-1.jpg" alt="One World Trade" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-2.jpg" alt="drizzle" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-3.jpg" alt="cat nose" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-1.jpg" alt="contrail" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-2.jpg" alt="golden hour" />
+        </div>
+        <div class="carousel-cell">
+          <img src="../images/image-carousel-3.jpg" alt="flight formation" />
+        </div>
+      </div>
+
+      <p class="carousel-bottom-p">Located just 45 min from St. George, Utah and steps outside of Zion National Park. </p>
+      <p class="carousel-bottom-p-1">Under Canvas® Zion offers an extraordinary lodging experience just as fabulous as the park itself. This glamping camp in America’s gorgeous Southwest is located on 196 acres bordering Zion National Park in Utah. Just moments away from incredible trails, off the beaten path adventures, and spectacular views of the majestic red rocks that make Zion so famous. The camp seamlessly blends into its dramatic surroundings and our luxury tents offer guests the opportunity to enjoy Utah’s spectacular desert without giving up the comforts of home. 
+        </p>
+        <h4 class="carousel-bottom-h4">How to get there:</h4>
+        <p class="carousel-bottom-p-2">The best way to attend the retreat will be to fly into St. George Regional Airport(SGU). St. George Regional Airport has service to major hubs such as Salt Lake City, Los Angeles, Denver, and Phoenix. We will coordinate transportation for attendees to the retreat location, approximately a 30-45 min drive. </p>
+</section>
+
+<section class="section-five">
+    <h1>Partners</h1>
+    <div class="partrners-flex-container">
+        <div><img src="../images/partners-image-1.jpg" alt=""></div>
+        <div><img src="../images/partners-image-2.jpg" alt=""></div>
+        <div class="partners-logo-3"><img src="../images/partners-image-3.jpg" alt=""></div>
     </div>
-
-      </section>
-
-    <!-- partners section -->
-
-    <!-- <section class="section section-light">
-        <h1>Partners</h1>
-        <img src="images/image-filler.png" alt="">
-        <img src="images/image-filler.png" alt="">
-        <img src="images/image-filler.png" alt="">
-    </section> -->
+</section>
 </main>
 
 <!-- footer -->
-<footer id="main-footer" class="grid">
-    <div>October 9-11</div>
-    <div>| <a href="http://www.brennangrout.com/" target="_blank">Zion National Park</a></div>
+<footer id="main-footer">
+    <div class="footer-flex">
+        <div><p>October 9-11</p></div>
+        <div class="footer-vertical-line"><img src="../images/footer-vertical-line.jpg" alt="vertical-divider-for-footer"></div>
+        <div><p><a href="https://www.nps.gov/zion/index.htm" target="_blank">Zion National Park</a></p></div>
+    </div>
 </footer>
 <!-- end footer -->
 
@@ -403,13 +394,19 @@
 <script src="../js/modal.js"></script>
 <script src="../js/navbar-mobile.js"></script>
 <script src="../js/jquery-navbar.js"></script>
+<script src="../js/jquery-smooth-scroll.js"></script>
 <script src="../js/jquery-carousel.js"></script>
+
 
 <!-- Firebase Script -->
 <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
 
 <!-- Fontawesome Script -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Flickity Script -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
 </body>
 </html>

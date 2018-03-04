@@ -1,0 +1,44 @@
+/***************************************
+            Section-five.css
+***************************************/
+.section-five h1 {
+    margin: 2rem 0 3rem 0;
+    font-weight: 900;
+}
+
+.partrners-flex-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin: 0 0 5rem 0;
+}
+
+.partrners-flex-container img {
+    height: auto;
+    width: 100%;
+}
+
+.partners-logo-3 {
+    margin: .8rem 1rem 0 1rem;
+}
+
+/* Large Screens */
+@media only screen and (min-width: 990px) {
+    .section-five hr {
+        display:  none;
+    }
+
+    .section-five h1 {
+        font-size: 3.5rem;
+        margin: 0 0 6rem 0;
+    }
+
+    .partrners-flex-container img {
+        height: auto;
+        width: 100%
+    }
+
+    .partners-logo-3 {
+        margin: 1.4rem 1rem 0 1rem;
+    }
+}

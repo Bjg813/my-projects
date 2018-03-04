@@ -3,26 +3,11 @@
 ***************************************/
 .section-two {
     position: relative;
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
     /* 
     fixed = parallax
     scroll = normal 
     */
     background-attachment: scroll;
-    padding-top: 12rem;
-    background-image: url('../images/background-with-prism.jpg');
-    min-height: 100%;
-    max-width: 100%;
-    padding-bottom: 3rem;
-}
-
-.brochure-card-overlay-1 {
-    background-color: #ffffff;
-    padding: 1rem 2rem 0 2rem;
-    border-top: solid  #2f3b77 10px;
-    margin-top: 2rem;
 }
 
 .brochure-card-overlay-1 h2 {
@@ -32,12 +17,23 @@
 }
 
 .brochure-card-overlay-1 p {
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 .brochure-card-overlay-1 ul {
-    color: #2f3b77;
-    margin-right: 6rem; 
+    color: #ffffff;
+    background-color: #2f3b77;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
+    box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
+}
+
+/* displays no list item image on mobile */
+.brochure-card-overlay-1 ul img {
+    display: none;
 }
 
 .brochure-card-overlay-1 li {
@@ -46,80 +42,146 @@
     padding: 0 0 0 2rem;
     line-height: 2rem;
     font-family: Helvetica Neue;
-    color: #707070;
+    color: #2f3b77;
     font-weight: 400;
 } 
-
-.section-two-list-items-container-1 li {
-    list-style-image: url('../images/heart-list-item.jpg');
-}
-
-.section-two-list-items-container-2 {
-    list-style-image: url('../images/x-list-item.jpg');
-}
 
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
     font-size: 2.5rem;
 }
 
-.agenda-day-box {
-    background-color: #2f3b77;
-    color: #ffffff;
-    text-transform: uppercase;
+.wrapper-agenda {
+    display: grid;
+    grid-template-columns: repeat(5, [col] 10.63rem ) ;
+    grid-template-rows: repeat(3, [row] auto  );
 }
 
-.flex-card-item {
-    background-color: #FAF7EF;
+.box {
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
 }
 
-.flex-card-item h3 {
-    font-weight: 900;
+.d img {
+    height: auto;
+    width: 100%;
+}
+
+.d {
+    grid-column: col 1 / span  5 ;
+    grid-row: row 2 ;
+}
+
+.f {
+    grid-column: col 1 / span 2;
+    grid-row: row 2  ;
+   background-color: rgba(126, 149, 0, 0.6);
+    z-index: 20;
+    margin: 3rem 6rem 3rem 3rem;
+}
+
+.light-blue-bg {
+   background-color: rgba(0, 167, 255, 0.6);
+}
+
+.dark-blue-bg {
+   background-color: rgba(47, 59, 119, 0.9);
+}
+
+.f h4 {
+    padding-right: 2rem;
+}
+
+.engagers-text {
+   flex: 0 0 100%;
+   height: 200px;
+   color: #ffffff;
+}
+
+.engagers-text h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.engagers-text p {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.engagers-container {
+    height: 197px;
+    background-color: rgb(47, 59, 119);
+    margin-top: -9rem;
+}
+
+
+.agenda-day {
+    font-size: .8rem;
+    margin-bottom: -2rem;
+    margin-right: 5rem;
+}
+
+.agenda-title {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.right {
+    grid-column: col 2 / span 2;
+    grid-row: row 2  ;
+    z-index: 20;
+    margin: 9rem 2rem 2rem 2rem;
     font-size: 1.5rem;
-    margin-bottom: -1.3rem;
+    text-align: left;
+    line-height: 2rem;
 }
 
-.flex-card-item p {
-    font-size: .7rem;
+.right h4 {
+    font-weight: 400;
 }
 
-.flex-card-item-agenda-list {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 1rem;
-    padding: 1rem;
-    font-family: 'lato', sans-serif;
-    color: #4B4B4B;
-    font-size: 0.7rem;
+.reading-man-sketch-container img {
+    height: auto;
+    width: 100%;
 }
 
+.reading-mountains-paragraph {
+    color: #00A7FF;
+    font-size: .8rem;
+}
+ 
 .brochure-card-overlay-bottom-paragraph {
     margin: 2rem 0 2rem 0;
     color: #707070;
+    font-size: .7rem;
 }
 
 .brochure-card-overlay-bottom-button {
     padding: .9rem 1.5rem .9rem 1.5rem;
-    background-color: #7E9500;
-    color: #ffffff;
+    background-color: transparent;
+    color: #2F3B77;
     font-family: 'lato', sans-serif;
     margin: 0 0 2rem 0;
     font-size: .5rem;
-    font-weight: 400;
+    font-weight: 700;
+    border-color: #2F3B77;
+}
+
+.brochure-card-overlay-bottom-button:hover, .brochure-card-overlay-bottom-button:focus {
+    background-color: #2F3B77;
+    color: #ffffff;
 }
 
 /* Large Screens */
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 990px) {
+    .section-two {
+        margin-top: -16rem;
+    }
+
     .brochure-card-overlay-1 {
-        background-color: #ffffff;
-        padding: 2rem 5rem 2rem 5rem;
-        margin: 16rem 15.6rem 0 15.6rem;
-        border-top: solid  #2f3b77 20px;
-        -webkit-box-shadow: 0px 11px 36px -1px rgba(47,59,119,0.45);
-        -moz-box-shadow: 0px 11px 36px -1px rgba(47,59,119,0.45);
-        box-shadow: 0px 11px 36px -1px rgba(47,59,119,0.45);
+        margin: -16rem 15.6rem 0 15.6rem;
     }
 
     .brochure-card-overlay-1 h2 {
@@ -135,15 +197,29 @@
 
     .brochure-card-overlay-1 ul {
         font-size: 1rem;
-        text-align: center;
-        margin-right: 5rem;
+        text-align: left;
+        margin-left: 2rem;
+        margin-right: 3rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+        padding-left: 1.5rem;
+        background-color: #ffffff;
+        color: #2f3b77;;
     } 
 
+
+    .brochure-card-overlay-1 ul img {
+        margin-right: 4rem;
+        margin-left: -1rem;
+        margin-right: 5rem;
+        display: inline-block;
+    }
+
     .brochure-card-overlay-1 li {
-        font-size: .96rem;
-        text-align: left;
+        font-size: .88rem;
         padding: 0 0 0 2rem;
         line-height: 2rem;
+        margin-right: -2rem;
     } 
 
     .brochure-card-overlay-1 li span {
@@ -159,9 +235,6 @@
             "allpha allpha allpha  bravo bravo bravo";
         }
 
-    .section-two-grid-container hr {
-        opacity: 0.4;
-    }
     .section-two-list-items-container-1 {
         grid-area: allpha;
     }
@@ -170,59 +243,143 @@
         grid-area: bravo;
     }
 
+    .wrapper-agenda {
+        display: grid;
+        grid-template-columns: repeat(5, [col] 11.63rem ) ;
+        grid-template-rows: repeat(3, [row] auto  );
+        margin-left: -5rem;
+    }
+    
+    .box {
+        color: #fff;
+        padding: 20px;
+        font-size: 150%;
+        z-index:10;
+    }
+    
+    .d img {
+        height: auto;
+        width: 100%;
+        -webkit-box-shadow: 0px -1px 37px -6px rgba(47,59,119,0.49);
+        -moz-box-shadow: 0px -1px 37px -6px rgba(47,59,119,0.49);
+        box-shadow: 0px -1px 37px -6px rgba(47,59,119,0.49);
+    }
+    
+    
+    .d {
+        grid-column: col 1 / span  5 ;
+        grid-row: row 2 ;
+      
+    }
+    
+    .f {
+        grid-column: col 1 / span 3;
+        grid-row: row 2  ;
+        background-color: rgba(126, 149, 0, 0.6);
+        z-index: 20;
+        margin: 3rem 6rem 3rem 3rem;
+    }
+
+    .light-blue-bg {
+        background-color: rgba(0, 167, 255, 0.6);
+    }
+
+    .dark-blue-bg {
+        background-color: rgba(47, 59, 119, 0.9);
+    }
+    
+    .f h4 {
+        padding-right: 10rem;
+    }
+
+    .reading-man-sketch-container {
+        margin: 0 14rem 0 14rem;
+    }
+    
+    .agenda-day {
+        font-size: .9rem;
+        margin-bottom: -2rem;
+        margin-right: 5rem;
+    }
+    
+    .agenda-title {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+  
+    .right {
+        grid-column: col 4 / span 2;
+        grid-row: row 2  ;
+        z-index: 20;
+        margin: 9.2rem 2rem 2rem .8rem;
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .right-top-stars {
+        margin: 6rem 2rem 2rem 2rem;
+    }
+
+    .right h4 {
+        font-weight: 400;
+    }
+
+.reading-mountains-paragraph {
+    color: #00A7FF;
+    font-size: 1.5rem;
+    margin-top: -6rem;
+    line-height: 1.4;
+    padding: 0 12rem 0 12rem;
+}
+
+
+    .brochure-card-overlay-bottom-paragraph {
+        margin: 2rem 0 2rem 0;
+        color: #707070;
+        font-size: 1rem;
+    }
+
     .brochere-card-overlay-bottom-agenda {
         font-size: 4rem;
-        margin: 5rem 0 4rem 0;
+        margin: 10rem 0 2.5rem 0;
     }
 
-    .flex-container {
-        display: flex;
-        margin: 0 -8rem 0 -8rem;
-        text-align: left;
-        justify-content: space-between;
-    }
-
-    .flex-card-item {
-        background-color: #FAF7EF;
-        width: 32%;
-        padding-right: .3rem;
-        padding-bottom: 2rem;
-        -webkit-box-shadow: 0px 0px 51px 0px rgba(47,59,119,0.26);
-        -moz-box-shadow: 0px 0px 51px 0px rgba(47,59,119,0.26);
-        box-shadow: 0px 0px 51px 0px rgba(47,59,119,0.26);
-    }
-
-    .flex-card-item-box {
-        padding-left: 1.3rem;
-    }
-
-    .flex-card-item-box p {
-        font-size: .75rem;
-    }
-
-    .flex-card-item-box h4 {
-        font-size: .95rem;
-    }
-
-    .flex-card-item-agenda-list {
-        margin: 1rem 1rem 1rem 0rem;
-        padding: .5rem;
-    }
-
-    .agenda-day-box {
-        margin: 2rem 11rem 1rem 2rem;
-        text-align: center;
-        font-size: .7rem;
-    }
-
-    .agenda-day-box h4 {
-        padding: .3rem 0 .3rem 0;
-    }
-
-    .brochere-card-overlay-bottom-agenda-paragraph {
-        font-size: 2rem;
+    .brochure-card-overlay-bottom-button {
+        padding: 1.1rem 2rem 1.1rem 2rem;
+        background-color: transparent;
+        color: #2F3B77;
+        font-family: 'lato', sans-serif;
+        margin: 0 0 2rem 0;
+        font-size: .5rem;
+        font-weight: 700;
+        border: #2F3B77 solid .1rem;
     }
 
 
-    }
+.engagers-text {
+    flex: 0 0 100%;
+    height: 310px;
+    background-image: url(../images/engagers-banner-image.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #ffffff;
+ }
+ 
+ .engagers-text h2 {
+     font-size: 4rem;
+ }
+ 
+ .engagers-text p {
+     font-size: 1.8rem;
+     font-weight: 200;
+ }
+ 
+ .engagers-container {
+     flex: 0 0 100%;
+     height: 310px;
+     background-color: rgba(47, 59, 119, 0.9);
+     margin-top: -11rem;
+ }
+}
 
