@@ -1,18 +1,15 @@
 /***************************************
             contactForm.js
 ***************************************/
-  
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyB3wJ8eEcgOv8KAd2lzQH1TycE6dTh5a4I",
-    authDomain: "insightoutside-e160a.firebaseapp.com",
-    databaseURL: "https://insightoutside-e160a.firebaseio.com",
-    projectId: "insightoutside-e160a",
-    storageBucket: "insightoutside-e160a.appspot.com",
-    messagingSenderId: "542485823813"
+var config = {
+    apiKey: "AIzaSyARjBjW3EqWFe9rdC7RRPtdRIm0ji74zsI",
+    authDomain: "insightoutside-196ac.firebaseapp.com",
+    databaseURL: "https://insightoutside-196ac.firebaseio.com",
+    projectId: "insightoutside-196ac",
+    storageBucket: "insightoutside-196ac.appspot.com",
+    messagingSenderId: "512796009566"
   };
   firebase.initializeApp(config);
-
   // Reference "messages" collection - which shows up on firebase database as "messages"
   const messageRef = firebase.database().ref('messages');
 

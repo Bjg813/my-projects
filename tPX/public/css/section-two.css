@@ -12,12 +12,14 @@
 
 .brochure-card-overlay-1 h2 {
     font-size: 	1.2rem;
-    color: #2f3b77;
+    color: #4B4B4B;
     margin-bottom: -1rem;
 }
 
 .brochure-card-overlay-1 p {
     font-size: .7rem;
+    color: #4B4B4B;
+    font-weight: 400;
 }
 
 .brochure-card-overlay-1 ul {
@@ -117,7 +119,6 @@
     margin-top: -9rem;
 }
 
-
 .agenda-day {
     font-size: .8rem;
     margin-bottom: -2rem;
@@ -175,24 +176,25 @@
     color: #ffffff;
 }
 
-/* Large Screens */
-@media only screen and (min-width: 990px) {
+
+/* Extra-large screens */
+@media only screen and (min-width: 1300px) {
     .section-two {
         margin-top: -16rem;
     }
 
     .brochure-card-overlay-1 {
-        margin: -16rem 15.6rem 0 15.6rem;
+        margin: -16rem 28rem 0 28rem;
     }
 
     .brochure-card-overlay-1 h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;;
         margin-bottom: -1rem;
         font-weight: 900;
     }
 
     .brochure-card-overlay-1 p {
-        font-size: 	0.85rem;
+        font-size: 	1.25rem;
         line-height: 1.3rem;
     }
 
@@ -205,8 +207,9 @@
         padding-bottom: .4rem;
         padding-left: 1.5rem;
         background-color: #ffffff;
-        color: #2f3b77;;
+        color: #2f3b77;
     } 
+
 
     .brochure-card-overlay-1 ul img {
         margin-right: 4rem;
@@ -216,11 +219,21 @@
     }
 
     .brochure-card-overlay-1 li {
-        font-size: .88rem;
+        font-size: 1.25rem;
         padding: 0 0 0 2rem;
         line-height: 2rem;
-        margin-right: -2rem;
+        margin-right: -5rem;
+        font-weight: 400;
+        color: #4B4B4B;
+        list-style: none;
     } 
+
+    .brochure-card-overlay-1 li::before { 
+        content: "• ";
+        color: #2F3B77;
+        margin-right: 1rem;
+        font-weight: 100;
+    }
 
     .brochure-card-overlay-1 li span {
         margin-left: 1.1rem;
@@ -235,6 +248,13 @@
             "allpha allpha allpha  bravo bravo bravo";
         }
 
+
+        .section-two-grid-container strong {
+            font-size: 1.25rem;
+            color: #2F3B77;
+            font-weight: 900;
+        }
+
     .section-two-list-items-container-1 {
         grid-area: allpha;
     }
@@ -245,9 +265,8 @@
 
     .wrapper-agenda {
         display: grid;
-        grid-template-columns: repeat(5, [col] 11.63rem ) ;
-        grid-template-rows: repeat(3, [row] auto  );
-        margin-left: -5rem;
+        grid-template-columns: repeat(6, [col] 14rem );
+        grid-template-rows: repeat(3, [row] auto );
     }
     
     .box {
@@ -267,7 +286,7 @@
     
     
     .d {
-        grid-column: col 1 / span  5 ;
+        grid-column: col 1 / span  6 ;
         grid-row: row 2 ;
       
     }
@@ -277,48 +296,66 @@
         grid-row: row 2  ;
         background-color: rgba(126, 149, 0, 0.6);
         z-index: 20;
-        margin: 3rem 6rem 3rem 3rem;
+        margin: 3rem -1rem 3rem 3rem;
     }
-
+    
     .light-blue-bg {
         background-color: rgba(0, 167, 255, 0.6);
     }
-
+    
     .dark-blue-bg {
         background-color: rgba(47, 59, 119, 0.9);
     }
     
     .f h4 {
-        padding-right: 10rem;
+        padding-right: 21rem;
     }
 
+    h4.agenda-title {
+        padding-right: 21rem;
+    }
+    
+    .agenda-flex-container {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
     .reading-man-sketch-container {
-        margin: 0 14rem 0 14rem;
+        margin: 0 40rem 0 40rem;
     }
     
     .agenda-day {
-        font-size: .9rem;
+        font-size: 1.25rem;
         margin-bottom: -2rem;
         margin-right: 5rem;
     }
     
     .agenda-title {
         font-weight: 100;
-        font-size: 3rem;
+        font-size: 4.0625rem;
     }
   
     .right {
-        grid-column: col 4 / span 2;
-        grid-row: row 2  ;
+        grid-column: col 4 / span 3;
+        grid-row: row 2;
         z-index: 20;
-        margin: 9.2rem 2rem 2rem .8rem;
-        font-size: 1.5rem;
+        margin: 12.4rem 0rem 2rem 11.3rem;
+        font-size: 2rem;
         text-align: left;
         line-height: 2rem;
     }
 
     .right-top-stars {
-        margin: 6rem 2rem 2rem 2rem;
+        margin: 12rem 0rem 2rem 12rem;
     }
 
     .right h4 {
@@ -328,11 +365,10 @@
 .reading-mountains-paragraph {
     color: #00A7FF;
     font-size: 1.5rem;
-    margin-top: -6rem;
+    margin-top: -1rem;
     line-height: 1.4;
     padding: 0 12rem 0 12rem;
 }
-
 
     .brochure-card-overlay-bottom-paragraph {
         margin: 2rem 0 2rem 0;
@@ -341,8 +377,8 @@
     }
 
     .brochere-card-overlay-bottom-agenda {
-        font-size: 4rem;
-        margin: 8rem 0 2.5rem 0;
+        font-size: 5rem;
+        margin: 18rem 0 10rem 0;
         padding-top: 2rem;
     }
 

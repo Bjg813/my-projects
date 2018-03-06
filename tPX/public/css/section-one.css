@@ -26,7 +26,7 @@
 .section-one-container h2 {
     margin-bottom: -2rem;
     font-size: 1.4rem;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -49,7 +49,30 @@
     font-weight: 400;
 }
 
-@media only screen and (min-width: 990px) {
+/* Extra-Large Screens */
+@media only screen  and (min-width : 1520px) {
+    .section-one-container {
+        margin: 4rem 20rem 22rem 20rem;
+        padding: 1rem 10rem 50rem 10rem;
+    }
+
+    .section-one-container h2 {
+        font-size: 3.25rem;
+    }
+
+    .section-one-sub-heading {
+        font-size: 2.0625rem;
+    }
+
+    .section-one-container p {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        padding: 0;
+    }
+}
+
+/* Large Screens */
+@media only screen and (max-width: 1520px) {
     .section-one {
         position: relative;
         background-position: center;

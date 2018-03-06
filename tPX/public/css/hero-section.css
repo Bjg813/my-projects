@@ -26,7 +26,7 @@
 }
 
 .hero-item-1 h1 {
-    color: #ffffff;
+    color: pink;
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: left;
@@ -38,7 +38,7 @@
     color: #ffffff;
     text-align: left;
     font-size: .7rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .hero-item-3 {
@@ -63,7 +63,7 @@
     width: 35%;
     font-size: .5rem;
     font-weight: bolder;
-    color: #2f3b77;
+    color: #4B4B4B;
 }
 
 .hero-item-3 .hero-date {
@@ -91,24 +91,103 @@
     text-align: center;
     font-size: .9rem;
     color: #ffffff;
-    font-weight: 100;
+    font-weight: 300;
     padding: 1rem 0 1rem 0;
 }
 
 
-
-/* LARGE SCREEN */
-@media only screen and (min-width: 990px) {
+/* Extra-large Screen */
+@media only screen  and (min-width : 1300px) {
     .hero-image {
-        padding-bottom: 12rem;
+        padding-bottom: 50rem;
         margin-bottom: 17rem;
+    }
+    .hero-item-1 h1 {
+        font-size: 4.9375rem;
+        line-height: 5.5rem;
+        color: #ffffff;
+    }
+
+    .hero-item-1 p {
+        font-size: 1.5rem;
+    }
+
+    .hero-scroll-text-a {
+        font-size: 1.25rem
     }
 
     .hero-item-3 {
         display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 16rem;
+        grid-template-areas: ". . a a a a";
+    }
+
+    .hero-item-3 .hero-date-location-container {
+        display: inline-flex;
+        width: 75%;
+        margin: auto;
+        grid-area: a;
+    }
+
+    .hero-item-3 .hero-button {
+        padding: 2rem;
+        font-size: 0.9375rem;
+    }
+
+    .hero-item-3 .hero-date {
+        font-size: 1.25rem;
+    }
+
+    span.hero-location-text {
+        font-size: 1.6875rem;
+    }
+
+    .top-of-section-one {
+        background-color: #ffffff;
+        border: #ffffff;
+        opacity: .9;
+        padding: 2rem 2rem 0 2rem;
+        margin: 8.5rem 15rem 0 15rem;
+    }
+
+    .hero-item-1 {
+        padding-left: 5rem;
+    }
+
+    .hero-item-3 .hero-date-location  {
+        padding: 1rem 1rem .1rem 2rem;
+        width: 39%;
+        font-size: 1.25rem;
+    }
+}
+
+/* LARGE SCREEN */
+@media only screen  and (max-width : 1300px) {
+    .hero-image {
+        padding-bottom: 50rem;
+        margin-bottom: 17rem;
+    }
+
+    .hero-item-1 h1 {
+        font-size: 3.5rem;
+        color: blue;
+        line-height: 1.2;
+    }
+
+     .hero-item-1 p {
+         font-size: .9rem;
+     }
+
+     .hero-item-3 {
+        display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: 16rem;
         grid-template-areas: ". a a a a";
+    }
+
+    .hero-item-3 .hero-date {
+        font-size: 1rem;
     }
 
     .hero-item-3 .hero-date-location-container {
@@ -122,60 +201,28 @@
         padding: 2rem;
     }
 
-    .top-of-section-one {
-        background-color: #ffffff;
-        border: #ffffff;
-        opacity: .9;
-        padding: 2rem 2rem 0 2rem;
-        margin: 8.5rem 15rem 0 15rem;
-    }
-}
-
-@media only screen and (min-width: 568px) {
-
-    .hero-item-1 {
-        padding-left: 5rem;
-    }
-
-    .hero-item-1 h1 {
-        font-size: 3rem;
-        line-height: 3.2rem;
-    }
-    
-    .hero-item-1 p {
-        font-size: .9rem;
-    }
-
     .hero-item-3 .hero-date-location  {
         padding: 1rem 1rem .1rem 2rem;
         width: 35%;
         font-size: 1.2rem;
     }
     
-    .hero-item-3 .hero-date {
-        font-size: .8rem;
-    }
-}
 
-/* small screens */
-@media only screen and (max-width:990px) {
     .hero-item-3 .hero-date-location  {
-        padding: .1rem 1rem .1rem 2rem;
-        width: 35%;
-        font-size: .2rem;
+        font-size: 1.25rem;
+    }
+
+    span.hero-location-text {
+        font-size: 1rem;
     }
 }
 
-@media only screen and (max-width:375px) {
-    .ptext .border h1 {
-        font-size: 1.5rem;
-        width: 100%;
+/* mobile screens */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .hero-item-1 h1 {
+        color: purple;
     }
 }
 
-@media only screen and (max-width:270px) {
-    .ptext .border h1 {
-        font-size: 1.2rem;
-        width: 100%;
-    }
-}
+
+
