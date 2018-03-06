@@ -1,13 +1,12 @@
 $(document).ready(function() {
-    $('.main-carousel').flickity({
+    $('.carousel').flickity({
         // options
         cellAlign: 'right',
         contain: false,
         setGallerySize: false,
-        initialIndex: 2,
+        initialIndex: 2
       });
 });
-
 
 
 

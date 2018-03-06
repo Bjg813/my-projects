@@ -54,7 +54,7 @@
     padding: 3% 3% 4% 5%;
     text-align: left;
     width: 90%;
-    font-size: .8rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     color: #4B4B4B;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
@@ -63,21 +63,21 @@
 }
 
 .hero-item-3 .hero-date {
-    font-size: .7rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 400;
     line-height: 2.6rem;
 }
 
 .hero-item-3 .hero-button {
-    padding: 6%;
+    padding: 7%;
     background-color: #2f3b77;
     border-color: transparent;
     color: #ffffff;
     /* padding: 2rem; */
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 400;
     font-size: .1rem;
-    font-size: .8rem;
+    font-size: 1rem;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
