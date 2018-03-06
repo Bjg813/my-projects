@@ -3,11 +3,11 @@
 ***************************************/
 .section-one {
     position: relative;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-image: url(../images/image-background-with-trails.jpg);
+    background-image: url(../images/background-image-trails.png);
     min-height: 100%;
     max-width: 100%;
     margin-top: -37%;
@@ -16,7 +16,7 @@
 /* use margin to control overlap of section-one-container */
 .section-one-container {
     background-color: #ffffff;
-    margin: 16% 17% 15% 16%;
+    margin: 17% 17% 15% 16%;
     padding: 1% 5% 55% 5%;
     -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     -moz-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);

@@ -6,10 +6,10 @@
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url('../images/hero-image.jpg');
+    background-attachment: scroll;
+    background-image: url('../images/hero-image.png');
     min-height: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 90%;
     margin-bottom: 16%;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .hero-item-1 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 2rem;
     text-align: left;
     font-weight: 900;
@@ -36,15 +36,16 @@
 .hero-item-1 p {
     color: #ffffff;
     text-align: left;
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: 400;
+    margin-bottom: 5%
 }
 
 .hero-item-3 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 16rem;
-    grid-template-areas: ". . a a a a";
+    grid-auto-rows: 26rem;
+    grid-template-areas: "a a a a a a";
 }
 
 
@@ -104,6 +105,7 @@
 @media only screen  and (min-width : 1280px) {
     .hero-image {
         padding-bottom: 40%;
+        background-attachment: fixed;
     }
 
     .hero-item-1 h1 {
@@ -116,6 +118,10 @@
 
     .hero-scroll-text-a {
         font-size: 1.25rem
+    }
+
+    .hero-item-3 {
+        grid-template-areas: ". . a a a a";
     }
 
     .hero-item-3 .hero-button {

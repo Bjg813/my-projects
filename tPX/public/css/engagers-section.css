@@ -26,6 +26,11 @@ background-color: rgba(47, 59, 119, 0.9);
     color: #ffffff;
 }
 
+.image-holder img {
+    height: auto;
+    width: 100%
+}
+
 .engagers-text {
     flex: 0 0 100%;
     height: 310px;
