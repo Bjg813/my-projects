@@ -26,13 +26,12 @@
 }
 
 .brochure-card-overlay-1 ul {
-    text-align: left;
-    margin: .4% 17% 0 4%;
-    padding: 3.4% 30% 2.4% 0%;
+    margin: .4% 15% 5% 6%;
+    padding: 3.4% 23% 2.4% 4%;
     background-color: #ffffff;
     color: #2f3b77;
-    text-align: center;
-    margin-top: 2rem;
+    text-align: left;
+    margin-top: 5%;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
     -moz-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
     box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
@@ -53,7 +52,7 @@
     list-style: none;
     font-size: 1rem;
     text-align: left;
-    font-family: Helvetica Neue;
+    font-family: 'lato', sans-serif;
 }
 
 .brochure-card-overlay-1 li::before { 
@@ -66,6 +65,7 @@
 .brochure-card-overlay-1 li span {
     margin-left: 1.1%;
 }
+
 
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
@@ -269,8 +269,16 @@ h4.agenda-title {
         font-size: .5rem;
     }
 
+    .section-two-list-items-container-2 {
+        margin-top: 18%;
+    }
+
     .brochure-card-overlay-1 ul {
         margin: .4% -3% 0 4%;
+    }
+
+    .brochure-card-overlay-1 h2 {
+    margin-bottom: 5%;
     }
 
 }

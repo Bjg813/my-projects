@@ -30,7 +30,7 @@ nav {
     float: right;
     display: block;
     text-align: center;
-    padding: 1% 2%;
+    padding: 1.2% 2%;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.7rem;
@@ -63,9 +63,9 @@ nav {
 
 .navbar .logo-image-lg {
     float: left;
-    font-size: 18px;
+    font-size: 1.3125rem;
     margin-left: -1%;
-    margin-top: -2%;
+    margin-top: -1.5%;
 }
 
 p.logo-paragraph {

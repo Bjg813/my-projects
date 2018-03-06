@@ -57,16 +57,19 @@
     font-size: .8rem;
     font-weight: bolder;
     color: #4B4B4B;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
 }
 
 .hero-item-3 .hero-date {
     font-size: .7rem;
     font-weight: 200;
-    line-height: 1.6rem;
+    line-height: 2.6rem;
 }
 
 .hero-item-3 .hero-button {
-    padding: 3%;
+    padding: 6%;
     background-color: #2f3b77;
     border-color: transparent;
     color: #ffffff;
@@ -75,6 +78,9 @@
     font-weight: 100;
     font-size: .1rem;
     font-size: .8rem;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
 }
 
 .hero-item-3 .hero-button:hover, .hero-item-3 .hero-button:focus {
@@ -121,6 +127,7 @@
     }
 
     .hero-item-3 {
+        grid-template-columns: repeat(7, 1fr);
         grid-template-areas: ". . a a a a";
     }
 
@@ -137,7 +144,7 @@
     }
 
     .hero-item-3 .hero-date-location  {
-        width: 39%;
+        width: 50%;
         font-size: 1.25rem;
     }
 }

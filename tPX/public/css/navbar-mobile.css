@@ -45,7 +45,8 @@
 	padding: 9%;
 	width: 20%;
     text-align: right;
-    background-color: rgba(47, 59, 119, 0.9);
+	background-color: rgba(47, 59, 119, 0.9);
+	z-index: 90000000;
 }
 
 #menu a li {
