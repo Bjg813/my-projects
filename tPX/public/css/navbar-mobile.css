@@ -9,8 +9,8 @@
 	margin: 0;
 	position: fixed;
 	overflow: hidden;
-	width: 70px;
-	height: 100px;
+	width: 10%;
+	height: 19%;
 	overflow: auto;
 	left: calc(100% - 100px);
 	top: -.79rem;
@@ -18,40 +18,40 @@
 
 .top, .middle{
 	position: absolute;
-	width: 62px;
-	height: 10px;
-	background-color: black;
+	width: 80%;
+	height: .625rem;
+	background-color: #ffffff;
 	transition: all 350ms ease-in-out;
-	top: 20px;
+	top: 1.25rem;
 }
 
 .middle {
-	top: 40px;
+	top: 2.5rem;
 }
 
 #menu {
 	position: fixed;
 	left: calc(100% - 292px);
-	top: 10px;
+	top: .625rem;
 	color: black;
 	display: none;
-	margin: 120px 30px;
+	margin: 0 4%;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	font-weight: 100;
 	font-size: 1rem;
 	text-transform: uppercase;
 	color: #333;
-	padding: 24px;
-	width: 200px;
+	padding: 9%;
+	width: 20%;
     text-align: right;
     background-color: rgba(47, 59, 119, 0.9);
 }
 
 #menu a li {
 	text-decoration: none!important;
-	padding-bottom: 10px;
-	margin-bottom: 12px;
+	padding-bottom: 15%;
+	margin-bottom: 15%;
 	border-bottom: 1px solid black;
 	list-style: none;
 	color: #ffffff;
@@ -60,7 +60,7 @@
 
 #menu a li:hover {
 	color: #00abff;
-	padding-right: 3px;
+	padding-right: 1%;
 }
 
 #menu a li:hover:after {
@@ -100,20 +100,9 @@
 	-webkit-animation-delay: 400ms;
 }
 
-.menu-name {
-	font-family: Verdana;
-	font-weight: 900;
-	color: black;
-	font-size: 19.5px;
-	text-decoration: none;
-	position: absolute;
-	top: 56px;
-	left: -1px;
-	transition: all 350ms;
-}
 
 .bump {
-	top: 64px;
+	top: 20%;
 	color: #ffffff;
 }
 
@@ -123,7 +112,7 @@ nav span a svg path.scrolled {
 }
 
 /* LARGE SCREEN */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 750px) {
     a.hamburger-shell {
         display: none;
     }
@@ -133,7 +122,7 @@ nav span a svg path.scrolled {
 /*************************************** 
         small screens 
 ***************************************/
-@media only screen and (max-width:990px) {
+@media only screen and (max-width: 750px) {
     .navbar-nav {
         display: none;
     }

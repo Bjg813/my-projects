@@ -10,14 +10,14 @@
     background-image: url(../images/image-background-with-trails.jpg);
     min-height: 100%;
     max-width: 100%;
-    margin-top: -17rem;
+    margin-top: -37%;
 }
 
 /* use margin to control overlap of section-one-container */
 .section-one-container {
     background-color: #ffffff;
-    margin: 50rem 1rem 3rem 1rem;
-    padding: 1rem 1rem 15rem 1rem;
+    margin: 16% 17% 15% 16%;
+    padding: 1% 5% 55% 5%;
     -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     -moz-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
@@ -25,7 +25,7 @@
 
 .section-one-container h2 {
     margin-bottom: -2rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -36,26 +36,24 @@
 }
 
 .section-one-sub-heading {
-    margin-bottom: 1.5rem;
-    font-size: .8rem;
+    margin-bottom: 1.4rem;
+    font-size: .5rem;
     font-weight: 100;
     color: #707070;
 }
 
 .section-one-container p {
     font-weight: 600;
-    font-size: .75rem;
+    font-size: .5rem;
     color: #707070;
     font-weight: 400;
+    line-height: 1.5;
+    padding: 0 3% 0 3%;
 }
 
-/* Extra-Large Screens */
-@media only screen  and (min-width : 1520px) {
-    .section-one-container {
-        margin: 4rem 20rem 22rem 20rem;
-        padding: 1rem 10rem 50rem 10rem;
-    }
 
+/* Extra-Large Screens */
+@media only screen  and (min-width : 1280px) {
     .section-one-container h2 {
         font-size: 3.25rem;
     }
@@ -66,41 +64,5 @@
 
     .section-one-container p {
         font-size: 1.25rem;
-        line-height: 1.5;
-        padding: 0;
-    }
-}
-
-/* Large Screens */
-@media only screen and (max-width: 1520px) {
-    .section-one {
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-image: url(../images/image-background-with-trails.jpg);
-        min-height: 100%;
-        max-width: 100%;
-        margin-top: -17rem;
-    }
-
-    .section-one-container {
-        margin: -2rem 15rem 20rem 15rem;
-        padding: 1rem 0rem 31.5rem 0rem;
-    }
-
-    .section-one-container p {
-        padding: 0 5.7rem 0 5.7rem;
-        line-height: 1.5rem;
-        font-size: .8rem;
-    }
-
-    .section-one-container h2 {
-        font-size: 2.5rem;
-    }
-
-    .section-one-sub-heading {
-        font-size: 1.4rem;
     }
 }

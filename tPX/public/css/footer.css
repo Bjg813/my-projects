@@ -2,31 +2,29 @@
             footer.css
 ***************************************/
 #main-footer {
-    padding: 2rem;
+    padding: 1%;
     background: #2f3b77;
     color: #ffffff;
+    font-size: .9rem;
 }
 
 #main-footer a {
     color: #ffffff;
 }
 
-
-/* LARGE SCREEN */
-@media only screen and (min-width: 990px) {
-    .footer-flex {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-vertical-line {
-        margin: 0 3rem 0 3rem;
-    }
+.footer-vertical-line {
+    margin: 0 3rem 0 3rem;
 }
 
-@media only screen and (max-width: 990px) {
-    .footer-vertical-line {
-        display: none;
+.footer-flex {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Extra-large screens */
+@media only screen and (min-width: 1280px) {
+    #main-footer {
+        font-size: 1.25rem;
     }
 }

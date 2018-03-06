@@ -1,9 +1,4 @@
 /* external css: flickity.css */
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
 .carousel {
   background: #EEE;
 }
@@ -18,43 +13,6 @@ body { font-family: sans-serif; }
   height: 200px;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel img {
-    height: 400px;
-  }
-}
-
-
-
-/* external css: flickity.css */
-/* .carousel-section {
-  margin: 105rem 0 0;
-  padding-top: .01rem;
-}
-
-.carousel {
-  background: transparent;
-} */
-
-/* .carousel-cell {
-  width: 70%;
-  height: 200px; */
-  /* flex-box, center image in cell */
-  /* display: -webkit-box;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-align-items: center;
-          align-items: center;
-} */
-/* 
-.carousel-cell {
-  position: absolute;
-  left: 10%;
-} */
-
 .carousel-cell img {
   display: block;
   max-width: 100%;
@@ -63,15 +21,6 @@ body { font-family: sans-serif; }
           transform: scale(0.85);
  
 }
-
-/* brighten selected image */
-/* .carousel-cell.is-selected img {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-filter: none;
-          filter: none;
-} */
 
 .carousel-section h1 {
   font-weight: 900;
@@ -84,20 +33,21 @@ body { font-family: sans-serif; }
 }
 
 .carousel-bottom-p {
-  margin: 5rem .5rem 2rem .5rem;
+  margin: 5% -10% 2% -10%;
   color: #4B4B4B;
   font-weight: 900;
-  font-size: .65rem;
+  font-size: 1rem;
+  padding-top: 14%;
 }
 
 .carousel-bottom-p-1 {
   font-size: .5rem;
-  margin: 0 .5rem 1rem .5rem;
+  margin: 0 -4rem 1rem -4rem;
   color: #4B4B4B;
 }
 
 .carousel-bottom-h4 {
-  margin: 0 .5rem 0 .5rem;
+  margin: 0 .1% 0 .1%;
   font-weight: 900;
   color: #4B4B4B;
 }
@@ -108,56 +58,45 @@ body { font-family: sans-serif; }
   color: #4B4B4B;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel-cell {
-    height: 400px;
-  }
+.carousel-cell {
+  width: 60%;
 }
 
-@media screen and ( min-width: 960px ) {
-.carousel-cell {
-    width: 60%;
-  }
+.carousel-section {
+  margin: 7% 23% 0 26%;
+  padding-top: .1rem;
+}
 
-  .carousel-section {
-    margin: 0 15rem 0 15rem;
-    padding-top: .1rem;
-  }
+.carousel-section h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 8rem;
+}
 
-  .carousel-section h1 {
-    font-size: 4rem;
-    font-weight: 900;
-    margin-top: 8rem;
-  }
+.carousel-section-top {
+  font-size: 1.3rem;
+  margin-bottom: 3.5rem;
+  color: #2f3b77;
+}
 
-  .carousel-section-top {
-    font-size: 2rem;
-    margin-bottom: 3.5rem;
-    color: #2f3b77;
-  }
 
-  .carousel-bottom-p {
-    font-size: 1.2rem;
-    padding-top: 2rem;
-  }
-  
-  .carousel-bottom-p-1 {
-    font-size: .9rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-  }
-  
-  .carousel-bottom-h4 {
-    color: #4B4B4B;
-    font-size: 1.6rem;
-  }
-  
-  .carousel-bottom-p-2 {
-    font-size: .9rem;
-    margin: -1rem .3rem 12rem .3rem;
-    color: #4B4B4B;
-    line-height: 1.5rem;
-  }
+.carousel-bottom-p-1 {
+  font-size: .8rem;
+  line-height: 1.1rem;
+  font-weight: 400;
+}
+
+.carousel-bottom-h4 {
+  color: #4B4B4B;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.carousel-bottom-p-2 {
+  font-size: 1rem;
+  margin: -1% -40% 12% -46%;
+  color: #4B4B4B;
+  line-height: 1.5rem;
 }
 
 /* buttons, no circle */
@@ -185,4 +124,52 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:disabled {
   display: none;
 }
+
+
+@media screen and ( min-width: 1280px ) {
+    .carousel-bottom-p { 
+      font-size: 1.5rem;
+  }
+
+  .carousel-section h1 {
+    font-size:  5rem;
+  }
+
+  .carousel-section-top {
+    font-size: 2rem;
+  }
+
+  .carousel-bottom-p-1 {
+    font-size: .8rem;
+    line-height: 1.1rem;
+  }
+
+  .carousel-bottom-p {
+    padding-top: 5%;
+  }
+
+  .carousel-bottom-h4 {
+    font-size: 2rem;
+  }
+
+  .carousel-bottom-p-2 {
+    font-size: 1.25rem;
+    margin: -1% -3% 12% -3%;
+  }
+}
+
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell {
+    height: 400px;
+  }
+}
+
+
 

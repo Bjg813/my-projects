@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/section-one.css">
     <link rel="stylesheet" href="css/section-two.css">
-    <link rel="stylesheet" href="css/section-four.css">
+    <link rel="stylesheet" href="css/engagers-section.css">
     <link rel="stylesheet" href="css/section-five.css">
     <link rel="stylesheet" href="css/hero-section.css">
 </head>
@@ -29,7 +29,6 @@
         <a class="hamburger-shell">
             <div class="hamb top"></div>
                 <div class="hamb middle"></div>
-            <div class="menu-name">MENU</div>
         
         <ul id="menu">
                 <a href="#about"> <li>About</li></a>
@@ -78,7 +77,7 @@
 </header> 
 
 <!-- beginning hero section -->
-<div class="hero-image">
+<div class="hero-image" id="main">
     <div class="hero-text">
             <div class="hero-item-1">
                 <h1>Get outside, <br> activate purpose<br> and plan for impact.</h1>
@@ -159,24 +158,26 @@
 
                 <!-- Agenda Section -->
             <h1 class="brochere-card-overlay-bottom-agenda" id="agenda">Agenda</h1>
-            <div class="agenda-flex-container">
-                <div class="wrapper-agenda">
-                        <div class="box d"><img src="../images/agenda-image-1.jpg" alt=""></div>
-                        <div class="box f"><h4 class="agenda-day">DAY 1 </h4> <br><h4 class="agenda-title">Align</h4></div>
-                        <div class="box right right-top-stars"><h4>Understand <br> your potential <br> for impact</h4></div>
+                <div class="agenda-container">
+                    <div class="agenda-flex-container">
+                            <div class="wrapper-agenda">
+                                    <div class="box d"><img src="../images/agenda-image-1.jpg" alt=""></div>
+                                    <div class="box f"><h4 class="agenda-day">DAY 1 </h4> <br><h4 class="agenda-title">Align</h4></div>
+                                    <div class="box right right-top-stars"><h4>Understand <br> your potential <br> for impact</h4></div>
+                            </div>
+                            <div class="wrapper-agenda">
+                                    <div class="box d"><img src="../images/agenda-image-2.jpg" alt=""></div>
+                                    <div class="box f light-blue-bg"><h4 class="agenda-day">DAY 2 </h4> <br><h4 class="agenda-title">Activate</h4></div>
+                                    <div class="box right"><h4>Developing <br> the roadmap</h4></div>
+                            </div>
+                            <div class="wrapper-agenda">
+                                    <div class="box d"><img src="../images/agenda-image-3.jpg" alt=""></div>
+                                    <div class="box f dark-blue-bg"><h4 class="agenda-day">DAY 3 </h4> <br><h4 class="agenda-title">Communicate</h4></div>
+                                    <div class="box right"><h4>Telling your <br> your story of impact</h4></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="wrapper-agenda">
-                        <div class="box d"><img src="../images/agenda-image-2.jpg" alt=""></div>
-                        <div class="box f light-blue-bg"><h4 class="agenda-day">DAY 2 </h4> <br><h4 class="agenda-title">Activate</h4></div>
-                        <div class="box right"><h4>Developing <br> the roadmap</h4></div>
-                </div>
-                <div class="wrapper-agenda">
-                        <div class="box d"><img src="../images/agenda-image-3.jpg" alt=""></div>
-                        <div class="box f dark-blue-bg"><h4 class="agenda-day">DAY 3 </h4> <br><h4 class="agenda-title">Communicate</h4></div>
-                        <div class="box right"><h4>Telling your <br> your story of impact</h4></div>
-                </div>
-            </div>
-            </div>
             <div class="reading-man-container">
                 <div class="reading-man-sketch-container"><img src="../images/reading-man.png" alt=""></div>
             </div>
@@ -189,11 +190,14 @@
                     <button class="brochure-card-overlay-bottom-button" id="modalBtn-2">REQUEST INVITE</button>
             </div>
             <!-- begin engagers banner -->
-                <div class="engagers-text"><h2>Engagers</h2><br><p>Coming soon</p>
-                    <div class="engagers-container" id="engagers">
-                        
-                    </div>
+            <div class="image-holder" id="engagers">
+                <div class="engagers-centered">
+                    <h2>Engagers</h2>
+                    
+                    <p>Coming soon</p>
                 </div>
+                    <img src="../images/engagers-banner-image.jpg" />
+            </div>  
             <!-- end engagers banner -->
         </section>
         <!-- end section two -->
@@ -326,9 +330,9 @@
 <section class="section-five" id="partners">
     <h1>Partners</h1>
     <div class="partrners-flex-container">
-        <div><img src="../images/partners-image-1.jpg" alt=""></div>
-        <div><img src="../images/partners-image-2.jpg" alt=""></div>
-        <div class="partners-logo-3"><img src="../images/partners-image-3.jpg" alt=""></div>
+        <div class="logo-one"><img src="../images/partners-image-1.png" alt=""></div>
+        <div class="logo-two"><img src="../images/partners-image-2.png" alt=""></div>
+        <div class="logo-three" class="partners-logo-3"><img src="../images/partners-image-3.png" alt=""></div>
     </div>
 </section>
 <!-- end section five -->
