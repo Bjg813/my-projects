@@ -67,7 +67,8 @@
 }
 
 .carousel-section {
-  margin: 7% 23% 0 26%;
+  margin: 7% 3% 0 1%;
+
   padding-top: .1rem;
 }
 
@@ -116,15 +117,13 @@
 }
 
 @media screen and ( max-width: 600px ) {
-  .flickity-prev-next-button.previous { 
-    display: none;
-  }
-.flickity-prev-next-button.next { 
-    display: none;
-}
+
 }
 
 @media screen and ( min-width: 1400px ) {
+  .carousel-section {
+    margin: 7% 23% 0 26%;
+  }
     .carousel-bottom-p { 
       font-size: 1.5rem;
   }
@@ -156,8 +155,6 @@
     margin: -1% -3% 12% -3%;
     line-height: 2rem;
   }
-  .flickity-prev-next-button.previous { left: 0; }
-.flickity-prev-next-button.next { right: 0; }
 }
 
 

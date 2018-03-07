@@ -55,7 +55,7 @@
 }
 
 .section-one-logo-container {
-    height: 200px;
+    height: 170px;
     margin: 9% 0 -10% 0;
     display: block;
     margin-left: auto;
@@ -88,5 +88,6 @@
     .section-one-logo-container {
         width: 50%;
         margin-bottom: -6%;
+        height: 200px;
     }
 }
