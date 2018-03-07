@@ -28,13 +28,26 @@
     cursor: pointer;
 }
 
+span.closeBtn {
+    position: absolute;
+    top: 49px;
+    right: 7px;
+}
+
 @keyframes modalopen {
     from {opacity: 0}
     to {opacity: 1}
 }
 
+
+/* Extra-large screens */
 @media screen and ( min-width: 1400px ) {
     .modal-content {
         width: 70%;
+    }
+    span.closeBtn {
+        position: absolute;
+        top: 55px;
+        right: 58px;
     }
 }
