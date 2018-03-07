@@ -178,7 +178,7 @@ background-color: rgba(47, 59, 119, 0.9);
 }
 
 /* Extra-large screens */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1400px) {
     .engagers-text h2 {
         font-size: 5rem;
     }

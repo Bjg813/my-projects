@@ -108,9 +108,9 @@
 
 
 /* Extra-large Screen */
-@media only screen  and (min-width : 1280px) {
+@media only screen  and (min-width : 1400px) {
     .hero-image {
-        padding-bottom: 40%;
+        padding-bottom: 33%;
         background-attachment: fixed;
     }
 

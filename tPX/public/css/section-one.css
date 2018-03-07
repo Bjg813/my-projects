@@ -4,12 +4,9 @@
 .section-one {
     position: relative;
     background-position: center top;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-image: url(../images/background-image-trails.png);
-    min-height: 100%;
-    max-width: 100%;
     margin-top: -37%;
 }
 
@@ -17,7 +14,7 @@
 .section-one-container {
     background-color: #ffffff;
     margin: 17% 2% 15% 2%;
-    padding: 1% 5% 55% 5%;
+    padding: 1% 5% 14% 5%;
     -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     -moz-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
@@ -57,9 +54,23 @@
     width: 100%;
 }
 
+.section-one-logo-container {
+    height: 200px;
+    margin: 9% 0 -6% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.section-one-logo-container img {
+    height: auto;
+    width: 100%;
+}
+
 
 /* Extra-Large Screens */
-@media only screen  and (min-width : 1280px) {
+@media only screen  and (min-width : 1400px) {
     .section-one-container {
         margin: 17% 20% 15% 20%;
     }

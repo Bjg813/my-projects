@@ -2,10 +2,10 @@
             contact-form.css
 ***************************************/
 	.container-contact {
-		max-width: 1170px;
+		max-width: 924px;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 6% 1% 1% 1%;
+		padding: 0% 2% 1% 2%;
 	}
 
 	.brand {
@@ -33,12 +33,16 @@
 	/* FORM STYLES */
 	.contact form {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(5, 1fr);
 		grid-gap: 1.25rem;
 	}
 
 	.contact form label {
 		display: block;
+		text-align: left;
+		font-size: 0.75rem;
+		color: #4B4B4B;
+		font-family: "lato";
 	}
 
 	.contact form p {
@@ -46,12 +50,12 @@
 	}
 
 	.contact form .full {
-		grid-column: 1 / 3;
+		grid-column: 2 / 5;
 	}
 
 	.contact form button, .contact form input, .contact form textarea {
 		width: 100%;
-		padding: 2% 0 2% 0;
+		padding: 4% 0 2% 0;
 		border: 1px solid #2f3b77;
 	}
 
@@ -102,24 +106,7 @@
 	}
 
 	/* LARGE SCREEN */
-	@media(min-width:1280px) {
-		.wrapper {
-			display: grid;
-			grid-template-columns: 1fr 2fr;
-		}
-
-		.wrapper > * {
-			padding: 2%;
-		}
-
-		.company-info {
-			background: #2f3b77;
-		}
-
-		.company-info h3, .company-info ul, .brand {
-			text-align: left;
-		}
-
+	@media(min-width:1400px) {
 		.modal-logo-insight {
 			font-size: 1.4rem;
 			color: #ffffff;
