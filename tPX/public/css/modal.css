@@ -17,7 +17,7 @@
     background-color: transparent;
     margin: 1% auto;
     padding: 15px;
-    width: 70%;
+    width: 95%;
     animation-name: modalopen;
     animation-duration: 1s;
 }
@@ -31,4 +31,10 @@
 @keyframes modalopen {
     from {opacity: 0}
     to {opacity: 1}
+}
+
+@media screen and ( min-width: 1400px ) {
+    .modal-content {
+        width: 70%;
+    }
 }

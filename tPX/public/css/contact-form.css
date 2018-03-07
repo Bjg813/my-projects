@@ -51,7 +51,7 @@
 	}
 
 	.contact form .full {
-		grid-column: 2 / 5;
+		grid-column: 1 / 6;
 	}
 
 	.contact form button, .contact form input, .contact form textarea {
@@ -112,8 +112,8 @@
 	}
 
 	.modal-logo-container {
-		height: 140px;
-		margin: -22% auto -13% auto;
+		height: 143px;
+		margin: -25% auto -2% auto;
 		display: block;
 		/* margin-left: auto; */
 		/* margin-right: auto; */
@@ -139,13 +139,18 @@
 		}
 
 		.modal-logo-container {
-		    height: 250px;
+			height: 290px;
 		    margin: -2% auto -13% auto;
 			display: block;
 			width: 50%;
 			padding-top: 10%;
-			}
+		}
+
 		.container-contact {
 			max-width: 77%;
+		}
+		
+		.contact form .full {
+			grid-column: 2 / 5;
 		}
 	}
