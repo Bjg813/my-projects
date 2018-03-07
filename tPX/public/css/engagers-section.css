@@ -177,8 +177,18 @@ background-color: rgba(47, 59, 119, 0.9);
     color: #7E9500;
 }
 
+@media only screen and (min-width: 799px) {
+    .engagers-centered h2 {
+        font-size: 4rem;
+    }
+
+    .engagers-centered p {
+        font-size: 1.5rem;
+    }
+}
+
 /* Extra-large screens */
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1300px) {
     .engagers-text h2 {
         font-size: 5rem;
     }
@@ -195,6 +205,7 @@ background-color: rgba(47, 59, 119, 0.9);
         font-size: 2.5rem;
     }
 }
+
 
 /* large screens */
 @media only screen and (min-width: 568px) { 

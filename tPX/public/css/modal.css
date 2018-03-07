@@ -39,15 +39,22 @@ span.closeBtn {
     to {opacity: 1}
 }
 
+@media only screen  and (min-width : 799px) {
+    span.closeBtn {
+        font-size: 1.5rem;
+    }
+}
+
 
 /* Extra-large screens */
-@media screen and ( min-width: 1260px ) {
+@media screen and ( min-width: 1300px ) {
     .modal-content {
         width: 70%;
     }
     span.closeBtn {
         position: absolute;
         top: 55px;
-        right: 58px;
+        right: 16px;
+        font-size: 2rem;
     }
 }

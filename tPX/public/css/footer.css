@@ -23,7 +23,7 @@
 }
 
 /* Extra-large screens */
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1300px) {
     #main-footer {
         font-size: 1.25rem;
     }

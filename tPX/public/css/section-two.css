@@ -247,7 +247,7 @@ h4.agenda-title {
 }
 
 /* mobile screens */
-@media only screen  and (max-width : 1000px) {
+@media only screen  and (max-width : 799px) {
     .wrapper-agenda {
         grid-template-columns: repeat(6, [col] 3.5rem );
     }
@@ -285,8 +285,8 @@ h4.agenda-title {
     .brochure-card-overlay-1 h2 {
         margin-bottom: -5%;
     }
-
 }
+
 
 @media only screen and (min-width: 800px) {
     .section-two-grid-container {
@@ -307,8 +307,47 @@ h4.agenda-title {
     }
 }
 
+@media only screen  and (min-width : 799px) {
+    .wrapper-agenda {
+        grid-template-columns: repeat(6, [col] 9rem );
+    }
+
+    .agenda-title {
+        font-size: 2.5rem;
+    }
+
+    .brochure-card-overlay-1 li {
+        font-size: .9rem;
+    }
+
+    .agenda-day {
+        font-size: 1rem;
+    }
+
+    .right h4 {
+        font-size: 1.3rem;
+    }
+
+    .reading-mountains-paragraph {
+        font-size: 1.3rem;
+    }
+
+    .brochure-card-overlay-bottom-paragraph {
+        font-size: .8rem;
+    }
+
+    .brochure-card-overlay-bottom-button {
+        padding: 1.6% 3.3% 1.6% 3.3%;
+        font-size: .7rem;
+    }
+
+    .brochere-card-overlay-bottom-agenda {
+        font-size: 3.5rem;
+    }
+}
+
 /* Extra-large screens */
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1300px) {
     .brochure-card-overlay-1 h2 {
         font-size: 2rem;
     }
@@ -351,6 +390,10 @@ h4.agenda-title {
 
     .brochure-card-overlay-bottom-button {
         font-size: 1rem;
+    }
+
+    .wrapper-agenda {
+        grid-template-columns: repeat(6, [col] 12rem );
     }
 
 }

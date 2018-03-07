@@ -61,6 +61,7 @@
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    margin: 0 10% 0 -10%;
 }
 
 .hero-item-3 .hero-date {
@@ -81,6 +82,7 @@
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
+    margin: 0 -1% 0 -10%;
 }
 
 .hero-item-3 .hero-button:hover, .hero-item-3 .hero-button:focus {
@@ -106,10 +108,53 @@
     font-family: 'lato', sans-serif;
 }
 
+@media only screen  and (min-width : 700px) and (max-width: 1299px) {
+    .hero-image {
+        padding-bottom: 18%;
+        background-attachment: fixed;
+    }
+
+    .hero-item-3 {
+        grid-auto-rows: 5rem;
+    }
+
+    .hero-item-1 h1 {
+     font-size: 3.5rem;
+     margin-top: 1%;
+     margin-left: 3%;
+    }
+
+    .hero-item-1 p {
+        font-size: 1.2rem;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+
+    .hero-item-3 .hero-date-location-container {
+        width: 25%;
+    }
+
+    .hero-item-3 .hero-date-location {
+        padding: 5% 3% 6% 5%;
+        margin: 0 8% 0 -8%;
+    }
+
+    .hero-item-3 .hero-button {
+        margin: 0 -30% 0 -10%;
+        padding: 12% 9% 11% 9%;
+    }
+
+    .hero-item-5 {
+        margin: 8% auto 10% auto;
+        font-size: .1rem;
+    }
+
+}
+
 
 
 /* Extra-large Screen */
-@media only screen  and (min-width : 1260px) {
+@media only screen  and (min-width : 1300px) {
     .hero-image{
         padding-bottom: 65%;
         }

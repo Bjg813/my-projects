@@ -71,7 +71,7 @@ ul {
 ****************************************/
 
 /* LARGE SCREEN */
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1300px) {
     .section {
         padding: 50px 80px;
     }

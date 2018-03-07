@@ -120,7 +120,41 @@
   display: none;
 }
 
-@media screen and ( min-width: 1260px ) {
+@media only screen  and (min-width : 799px) {
+  .carousel-section h1 {
+    font-size: 3rem;
+  }
+
+  .carousel-section-top {
+    font-size: 1.5rem;
+  }
+
+  .carousel-section {
+    margin: 7% 24% 0 24%;
+  }
+
+  .carousel-bottom-container {
+    margin: -4% 20% 12% 20%;
+  }
+
+  .carousel-bottom-p {
+    font-size: 1.1rem;
+  }
+
+  .carousel-bottom-h4 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-bottom-p-1 {
+    font-size: .9rem;
+  }
+
+  .carousel-bottom-p-2 {
+    font-size: .9rem;
+  }
+}
+
+@media screen and ( min-width: 1300px ) {
   .carousel-section {
     margin: 7% 23% 0 26%;
   }
