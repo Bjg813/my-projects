@@ -31,6 +31,7 @@
     margin-bottom: 1%;
     line-height: 112%;
     color: #ffffff;
+    margin-top: -11%;
 }
 
 .hero-item-1 p {
@@ -146,6 +147,10 @@
     .hero-item-3 .hero-date-location  {
         width: 50%;
         font-size: 1.25rem;
+    }
+
+    .hero-item-1 h1 {
+        margin-top: 4%;
     }
 }
 

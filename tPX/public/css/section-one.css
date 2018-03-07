@@ -13,7 +13,7 @@
 /* use margin to control overlap of section-one-container */
 .section-one-container {
     background-color: #ffffff;
-    margin: 17% 2% 15% 2%;
+    margin: 37% 2% 15% 2%;
     padding: 1% 5% 14% 5%;
     -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     -moz-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
@@ -56,11 +56,11 @@
 
 .section-one-logo-container {
     height: 200px;
-    margin: 9% 0 -6% 0;
+    margin: 9% 0 -10% 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .section-one-logo-container img {
@@ -84,5 +84,9 @@
 
     .section-one-container p {
         font-size: 1.25rem;
+    }
+    .section-one-logo-container {
+        width: 50%;
+        margin-bottom: -6%;
     }
 }

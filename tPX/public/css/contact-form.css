@@ -2,7 +2,7 @@
             contact-form.css
 ***************************************/
 	.container-contact {
-	    max-width: 77%;
+	    max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0% 2% 1% 2%;
@@ -112,13 +112,13 @@
 	}
 
 	.modal-logo-container {
-	height: 257px;
-    margin: 1% 0 -13% 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 10%;
+		height: 140px;
+		margin: -22% auto -13% auto;
+		display: block;
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+		width: 96%;
+		padding-top: 44%;
 	}
 
 	.modal-logo-container img {
@@ -136,5 +136,16 @@
 		.modal-logo-paragraph {
 			color: #ffffff;
 			font-weight: 100;
+		}
+
+		.modal-logo-container {
+		    height: 250px;
+		    margin: -2% auto -13% auto;
+			display: block;
+			width: 50%;
+			padding-top: 10%;
+			}
+		.container-contact {
+			max-width: 77%;
 		}
 	}
