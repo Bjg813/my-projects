@@ -41,7 +41,7 @@ span.closeBtn {
 
 
 /* Extra-large screens */
-@media screen and ( min-width: 1400px ) {
+@media screen and ( min-width: 1260px ) {
     .modal-content {
         width: 70%;
     }

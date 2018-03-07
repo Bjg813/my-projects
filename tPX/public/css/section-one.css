@@ -70,7 +70,7 @@
 
 
 /* Extra-Large Screens */
-@media only screen  and (min-width : 1400px) {
+@media only screen  and (min-width : 1260px) {
     .section-one-container {
         margin: 17% 20% 15% 20%;
     }

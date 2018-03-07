@@ -116,11 +116,7 @@
   display: none;
 }
 
-@media screen and ( max-width: 600px ) {
-
-}
-
-@media screen and ( min-width: 1400px ) {
+@media screen and ( min-width: 1260px ) {
   .carousel-section {
     margin: 7% 23% 0 26%;
   }

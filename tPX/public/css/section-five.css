@@ -38,7 +38,7 @@
 
 
 /* Large Screens */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1260px) {
     .section-five hr {
         display:  none;
     }

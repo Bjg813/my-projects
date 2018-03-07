@@ -108,12 +108,12 @@
 }
 
 
+
 /* Extra-large Screen */
-@media only screen  and (min-width : 1400px) {
-    .hero-image {
-        padding-bottom: 33%;
-        background-attachment: fixed;
-    }
+@media only screen  and (min-width : 1260px) {
+    .hero-image{
+        padding-bottom: 65%;
+        }
 
     .hero-item-1 h1 {
         font-size: 4.9375rem;
@@ -151,6 +151,15 @@
 
     .hero-item-1 h1 {
         margin-top: 4%;
+    }
+}
+
+@media only screen  and (min-width : 1300px) {
+  
+
+    .hero-image {
+        padding-bottom: 33%;
+        background-attachment: fixed;
     }
 }
 

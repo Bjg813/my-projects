@@ -127,7 +127,7 @@
 	}
 
 	/* LARGE SCREEN */
-	@media(min-width:1400px) {
+	@media(min-width:1260px) {
 		.modal-logo-insight {
 			font-size: 1.4rem;
 			color: #ffffff;
