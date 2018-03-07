@@ -33,7 +33,7 @@ nav {
     padding: 1% 1% 1% 1%;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.3rem;
+    font-size: 0.1rem;
     color: #ffffff;
     font-weight: 700;
 }
@@ -56,6 +56,7 @@ nav {
     -webkit-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
     -moz-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
     box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
+    font-size: .1rem;
 }
 
 .navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
@@ -105,11 +106,12 @@ p.logo-paragraph {
 
     .navbar a {
         padding: 1.4% 2% 2% 2%;
-        font-size: 0.8125rem
+        font-size: 0.8125rem;
     }
 
     .navbar .navbar-nav .modal-btn {
         padding: 2% 4% 6% 3%;
+        font-size: 0.8125rem;
     }
 
     .logo-marker {
