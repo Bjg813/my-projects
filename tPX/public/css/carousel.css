@@ -32,8 +32,11 @@
   margin-bottom: 3.5rem;
 }
 
+.carousel-bottom-container {
+  margin: 5% 8% 12% 8%;
+}
+
 .carousel-bottom-p {
-  margin: 5% -10% 2% -10%;
   color: #4B4B4B;
   font-weight: 900;
   font-size: 1rem;
@@ -44,8 +47,8 @@
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
-  margin: 6% -4rem 1rem -4rem;
   color: #4B4B4B;
+  margin-top: 3%;
 }
 
 .carousel-bottom-h4 {
@@ -56,7 +59,6 @@
 
 .carousel-bottom-p-2 {
   font-size: 1rem;
-  margin: -1% -40% 12% -46%;
   color: #4B4B4B;
   line-height: 1.5rem;
   font-family: 'lato', sans-serif;
@@ -148,7 +150,6 @@
 
   .carousel-bottom-p-2 {
     font-size: 1.25rem;
-    margin: -1% -3% 12% -3%;
     line-height: 2rem;
   }
 }

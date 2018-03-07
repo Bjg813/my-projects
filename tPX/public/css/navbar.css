@@ -33,7 +33,7 @@ nav {
     padding: 1% 1% 1% 1%;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     color: #ffffff;
     font-weight: 700;
 }
@@ -105,6 +105,7 @@ p.logo-paragraph {
 
     .navbar a {
         padding: 1.4% 2% 2% 2%;
+        font-size: 0.8125rem
     }
 
     .navbar .navbar-nav .modal-btn {
