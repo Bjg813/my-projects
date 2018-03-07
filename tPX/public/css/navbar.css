@@ -100,6 +100,41 @@ p.logo-paragraph {
     font-size: 1.25rem;
 }
 
+/* Medium screens */
+@media only screen  and (min-width : 700px) and (max-width: 1299px) {
+    .nav {
+        height: 12%;
+    }
+
+    .navbar a {
+        padding: 1% 2% 1% 2%;
+        font-size: 0.6rem;
+    }
+
+    .navbar .navbar-nav .modal-btn {
+        padding: 1.8% 5% 4% 3%;
+        font-size: 0.65rem;
+        font-weight: 900;
+    }
+
+    .logo-marker {
+        height: 100px;
+        width: 210px;
+        margin: .1;
+    }
+
+    .logo-marker {
+        height: 0%;
+        width: 13%;
+        float: left;
+    }
+    
+    .logo-marker img {
+        height: auto;
+        width: 100%;
+    }
+}
+
 
 /* Extra-large screens */
 @media screen and ( min-width: 1300px ) {
