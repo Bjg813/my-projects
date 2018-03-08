@@ -9,7 +9,7 @@ nav {
     background-color: transparent;
     overflow: hidden;
     height: 8%;
-    z-index: 10000;
+    z-index: 100;
 }
 
 .navbar.scrolled {
@@ -69,7 +69,6 @@ nav {
     color: #ffffff;
 }
 
-
 p.logo-paragraph {
     text-transform: lowercase;
     font-size: .7rem;
@@ -81,27 +80,16 @@ p.logo-paragraph {
     margin-bottom: -6%;
 }
 
-.navbar .logo-image-lg span {
-    margin-left: -1%;
-    font-weight: 700;
-}
-
-.navbar .logo-image-sm {
-    margin: 1% 0 1% 1%;
-    float: left;
-}
-
 .navbar ul {
     margin: 0.5% 0 0 0;
     list-style: none;
 }
 
-.navbar .logo-image-sm {
-    font-size: 1.25rem;
-}
-
 /* Small screen */
-@media only screen  and (max-width: 700px) {
+@media only screen  and (max-width: 900px) {
+    nav {
+        display: none;
+    }
     .navbar a {
         display: none;
     }
@@ -109,12 +97,16 @@ p.logo-paragraph {
     .navbar .navbar-nav .modal-btn {
         display: none;
     }
+
+    .navbar.scrolled {
+        display: none;
+    }
 }
 
 /* Medium screens */
-@media only screen  and (min-width : 700px) and (max-width: 1299px) {
-    .nav {
-        height: 12%;
+@media only screen  and (min-width : 900px) and (max-width: 1299px) {
+    nav {
+        height: 10%;
     }
 
     .navbar a {
@@ -123,15 +115,9 @@ p.logo-paragraph {
     }
 
     .navbar .navbar-nav .modal-btn {
-        padding: 1.8% 5% 4% 3%;
+        padding: 1.8% 4.5% 4% 2.5%;
         font-size: 0.65rem;
         font-weight: 900;
-    }
-
-    .logo-marker {
-        height: 100px;
-        width: 210px;
-        margin: .1;
     }
 
     .logo-marker {
@@ -161,12 +147,6 @@ p.logo-paragraph {
     .navbar .navbar-nav .modal-btn {
         padding: 2% 4% 6% 3%;
         font-size: 0.8125rem;
-    }
-
-    .logo-marker {
-        height: 100px;
-        width: 210px;
-        margin: .1;
     }
 
     .logo-marker {

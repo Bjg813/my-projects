@@ -26,8 +26,6 @@
 <!-- beginning of navbar -->
 <header class="page-header">
     <nav class="navbar">
-       
-
         <ul class="navbar-nav" id="top-menu">
             <button class="modal-btn" id="modalBtn">Request Invite</button>
             <li class="partners-marker active">
@@ -46,16 +44,34 @@
             <a href="#about">About</a>
             </li>
             <li class="logo-marker">
-            <a class="logo-image-lg" href="#main"><img src="../images/nav-logo.png" alt="insight-outside-logo"></a>
+            <a class="navbar logo-image-lg" href="#main"><img src="../images/nav-logo.png" alt="insight-outside-logo"></a>
             </li>
         </ul>
     </nav>
 
-   
-    </nav>
+    <div class="nav">
+            <div class="logo">
+            <li class="mobile-logo-marker">
+                <a class="navbar-mobile" href="#main"><img src="../images/nav-logo.png" alt="insight-outside-logo"></a>
+            </li>
+            </div>
+            <div class="main-nav">
+                <a class="hamburger-nav">&#9776;</a>
+                <ul class="menu">
+                    <a href="#about"><li>About</li></a>
+                    <a href="#agenda"><li>Agenda</li></a>
+                    <a href="#engagers"><li>Engagers</li></a>
+                    <a href="#location"><li>Location</li></a>
+                    <a href="#partners"><li>Partners</li></a>
+                    <a href="#" id="modalBtn-3"><li>Request Invite</li></a>
+                </ul>
+            </div>
+        </div>
+      
+      
+
 </header> 
 <!-- end of navbar -->
-
 
 <!-- beginning hero section -->
 <div class="hero-image" id="main">
@@ -265,12 +281,13 @@
 <!-- Flickity HTML init -->
 <div class="carousel"
   data-flickity='{ "imagesLoaded": true, "percentPosition": false, "initialIndex": 1, "wrapAround": true}'>
-  <img src="../images/image-carousel-1.png" alt="orange tree" />
-  <img src="../images/image-carousel-2.jpg" alt="submerged" />
-  <img src="../images/image-carousel-3.png" alt="look-out" />
-  <img src="../images/image-carousel-1.png" alt="One World Trade" />
-  <img src="../images/image-carousel-2.jpg" alt="drizzle" />
-  <img src="../images/image-carousel-3.png" alt="cat nose" />
+  <img src="../images/image-carousel-1.jpg" alt="girl-with-roasting-marshmellow" />
+  <img src="../images/image-carousel-2.jpg" alt="beautiful-glamping-tent" />
+  <img src="../images/image-carousel-3.jpg" alt="girl-relaxing" />
+  <img src="../images/image-carousel-4.jpg" alt="girl-with-roasting-marshmellow" />
+  <img src="../images/image-carousel-5.jpg" alt="beautiful-glamping-tent" />
+  <img src="../images/image-carousel-6.jpg" alt="beautiful-glamping-tent" />
+  <img src="../images/image-carousel-7.jpg" alt="beautiful-glamping-tent" />
 </div>
 
 <!-- <div class="carousel js-flickity" data-flickity='{ "initialIndex": 1 , "wrapAround": true}'>
@@ -395,6 +412,7 @@
 <script src="../js/modal.js"></script>
 <script src="../js/modal-1.js"></script>
 <script src="../js/modal-2.js"></script>
+<script src="../js/modal-3.js"></script>
 <script src="../js/jquery-navbar-mobile.js"></script>
 <script src="../js/jquery-navbar.js"></script>
 <script src="../js/jquery-smooth-scroll.js"></script>

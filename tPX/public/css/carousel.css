@@ -19,7 +19,6 @@
   max-height: 100%;
   -webkit-transform: scale(0.85);
   transform: scale(0.85);
- 
 }
 
 .carousel-section h1 {
@@ -33,7 +32,7 @@
 }
 
 .carousel-bottom-container {
-  margin: 5% 21% 12% 21%;
+  margin: 5% 1% 12% 1%;
 }
 
 .carousel-bottom-p {
@@ -44,7 +43,7 @@
 }
 
 .carousel-bottom-p-1 {
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: #4B4B4B;
@@ -70,8 +69,7 @@
 }
 
 .carousel-section {
-  margin: 7% 3% 0 1%;
-
+  margin: 7% 0% 0 0%;
   padding-top: .1rem;
 }
 
@@ -130,11 +128,11 @@
   }
 
   .carousel-section {
-    margin: 7% 24% 0 24%;
+    margin: 7% 24.3% 0 24.3%;
   }
 
   .carousel-bottom-container {
-    margin: -4% 20% 12% 20%;
+    margin: 0% 20% 12% 20%;
   }
 
   .carousel-bottom-p {
@@ -158,7 +156,8 @@
   .carousel-section {
     margin: 7% 23% 0 26%;
   }
-    .carousel-bottom-p { 
+
+  .carousel-bottom-p { 
       font-size: 1.5rem;
       margin: 0 -11% 0 -11%
   }
@@ -189,6 +188,11 @@
     font-size: 1.25rem;
     line-height: 2rem;
   }
+
+  .carousel-bottom-container {
+    margin: 5% 21% 12% 21%;
+  }
+
 }
 
 
