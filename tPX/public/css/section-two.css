@@ -309,7 +309,7 @@ h4.agenda-title {
 
 @media only screen  and (min-width : 799px) {
     .wrapper-agenda {
-        grid-template-columns: repeat(6, [col] 9rem );
+        grid-template-columns: repeat(6, [col] 8.3rem );
     }
 
     .agenda-title {
