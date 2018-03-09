@@ -21,4 +21,4 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["../images/hero-image.jpg", "../images/../images/image-carousel-1.jpg", "../images/image-carousel-2.jpg","../images/image-carousel-3.jpg", "../images/image-carousel-4.jpg", "../images/image-carousel-5.jpg", "../images/image-carousel-6.jpg"]);
+preloadImages(["../images/hero-image.png", "../images/../images/image-carousel-1.jpg", "../images/image-carousel-2.jpg","../images/image-carousel-3.jpg", "../images/image-carousel-4.jpg", "../images/image-carousel-5.jpg", "../images/image-carousel-6.jpg"]);

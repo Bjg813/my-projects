@@ -12,14 +12,12 @@ html, body {
     color: #2f3b77;
 }
 
-
-
 h1, h2, h3, h4, .slider-wrap span {
     font-family: 'Montserrat', sans-serif;
 }
 
 p, a, button {
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h2, h3, h4 {

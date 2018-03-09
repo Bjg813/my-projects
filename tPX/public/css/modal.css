@@ -22,16 +22,18 @@
     animation-duration: 1s;
 }
 
-.closeBtn:hover, closeBtn:focus {
-    color: #000000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 span.closeBtn {
     position: absolute;
-    top: 49px;
-    right: 7px;
+    bottom: 23px;
+    right: 23px;
+    transition: all .2s ease-in-out;
+}
+
+.closeBtn:hover, closeBtn:focus {
+    color: #2f3b77;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @keyframes modalopen {
@@ -39,9 +41,18 @@ span.closeBtn {
     to {opacity: 1}
 }
 
+.modal-open {
+    overflow-y: none;
+}
+
+/* Medium screens */
 @media only screen  and (min-width : 799px) {
     span.closeBtn {
         font-size: 1.5rem;
+    }
+
+    .closeBtn:hover:before, closeBtn:focus:before {
+        content: "Exit ";
     }
 }
 
@@ -56,5 +67,15 @@ span.closeBtn {
         top: 55px;
         right: 16px;
         font-size: 2rem;
+        transition: none;
     }
+
+    .closeBtn:hover, closeBtn:focus {
+        transform: none;
+    }
+
+    .closeBtn:hover:before, closeBtn:focus:before {
+        content: "";
+    }
+    
 }
