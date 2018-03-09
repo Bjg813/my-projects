@@ -28,7 +28,7 @@
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-image: url(../images/modal-background-image.png);
-	    padding-bottom: 18%;
+		padding-bottom: 8%;
 	}
 
 	/* FORM STYLES */
@@ -133,6 +133,10 @@
 			height: auto;
 			width: 50%;
 		}
+
+		.contact {
+			padding-bottom: 18%;
+		}
 	 }
 
 	@media only screen  and (min-width : 799px) {
@@ -156,6 +160,10 @@
 
 		.container-contact {
 			max-width: 70%;
+		}
+
+		.contact {
+			padding-bottom: 18%;
 		}
 		
 		.contact form .full {
@@ -192,6 +200,10 @@
 			display: block;
 			width: 50%;
 			padding-top: 10%;
+		}
+
+		.contact {
+			padding-bottom: 18%;
 		}
 
 		.container-contact {

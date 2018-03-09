@@ -74,7 +74,7 @@
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
     font-size: 2.5rem;
-    padding-top: 17%;
+    padding-top: 8%;
     margin: 0% 0% 14% 0;
 }
 
@@ -188,7 +188,7 @@
 }
 
 .brochure-card-overlay-bottom-button {
-    padding: 1.6% 2.3% 1.6% 2.3%;
+    padding: 4% 8% 4% 8%;
     background-color: transparent;
     color: #2F3B77;
     font-family: 'lato', sans-serif;
@@ -196,6 +196,9 @@
     font-weight: 700;
     border: #2F3B77 solid .1rem;
     font-size: .5rem;
+    /* margin-top: 5%; */
+    margin: 5% 0 12% 0;
+
 }
 
 .brochure-card-overlay-bottom-button:hover, .brochure-card-overlay-bottom-button:focus {
@@ -254,7 +257,7 @@ h4.agenda-title {
 
     .agenda-day {
         margin-bottom: -25%;
-        margin-right: 75%;
+        margin-right: 71%;
         font-size: 0.6rem;
     }
 
@@ -359,12 +362,13 @@ h4.agenda-title {
     .brochure-card-overlay-bottom-button {
         padding: 1.6% 3.3% 1.6% 3.3%;
         font-size: .7rem;
+        margin: 0 auto 12% auto;
     }
 
     .brochere-card-overlay-bottom-agenda {
-        margin: -1% 0% 5% 0;
+        margin: 0% 0% 5% 0;
         font-size: 3.5rem;
-        padding-top: 12%;
+        padding-top: 4%;
     }
 
     .reading-man-sketch-container {
@@ -423,6 +427,8 @@ h4.agenda-title {
     }
 
     .brochure-card-overlay-bottom-button {
+        padding: 1.6% 2.3% 1.6% 2.3%;
+        margin: 0 auto 12% auto;
         font-size: 1rem;
     }
 

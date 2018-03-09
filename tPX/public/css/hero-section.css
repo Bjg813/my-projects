@@ -10,10 +10,9 @@
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-image: url('../images/hero-image.png');
+    background-image: url('../images/hero-image.jpg');
     min-height: 100%;
     margin-bottom: 0%;
-    z-index: -1;
     padding-bottom: 20%;
 }
 
