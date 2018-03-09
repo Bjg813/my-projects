@@ -74,8 +74,8 @@
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
     font-size: 2.5rem;
-    padding-top: 12%;
-    margin: -1% 0% 5% 0;
+    padding-top: 17%;
+    margin: 0% 0% 14% 0;
 }
 
 .wrapper-agenda {
@@ -217,7 +217,7 @@
 
 h4.agenda-title {
     text-align: left;
-    margin: 0 0 0 8%;
+    margin: 0 0 26% 8%;
 }
 
 .agenda-flex-container {
@@ -362,7 +362,9 @@ h4.agenda-title {
     }
 
     .brochere-card-overlay-bottom-agenda {
+        margin: -1% 0% 5% 0;
         font-size: 3.5rem;
+        padding-top: 12%;
     }
 
     .reading-man-sketch-container {
@@ -415,7 +417,9 @@ h4.agenda-title {
     }
 
     .brochere-card-overlay-bottom-agenda {
+        margin: -1% 0% 5% 0;
         font-size: 5rem;
+        padding-top: 8%;
     }
 
     .brochure-card-overlay-bottom-button {
