@@ -1,10 +1,6 @@
 /***************************************
                 modal.css
 ***************************************/
-body.modal-open {
-    position: fixed;
-}
-
 .modal {
     display: none;
     position: fixed;
