@@ -1,6 +1,9 @@
 /***************************************
             contact-form.css
 ***************************************/
+	fieldset {
+		border: transparent;
+	}
 	.container-contact {
 	    max-width: 100%;
 		margin-left: auto;
@@ -128,6 +131,16 @@
 		width: 78%;
 	}
 
+	#contactForm input:focus { 
+		display: block;
+	}
+
+	#contactForm textarea:focus {
+		display: block;
+	}
+
+	
+
 	 @media only screen and (min-width: 525px) and (max-width: 798px) {
 		.modal-logo-container img {
 			height: auto;
@@ -153,7 +166,6 @@
 		.modal-logo-container {
 			height: 290px;
 			margin: 2% auto -17% auto;
-			display: block;
 			width: 50%;
 			padding-top: 10%;
 		}
