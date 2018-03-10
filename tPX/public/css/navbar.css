@@ -106,7 +106,7 @@ p.logo-paragraph {
 /* Medium screens */
 @media only screen  and (min-width : 900px) and (max-width: 1299px) {
     nav {
-        height: 10%;
+        height: 8.4%;
     }
 
     .navbar a {
@@ -136,7 +136,7 @@ p.logo-paragraph {
 /* Extra-large screens */
 @media screen and ( min-width: 1300px ) {
     nav {
-        height: 10%;
+        height: 9%;
     }
 
     .navbar a {
