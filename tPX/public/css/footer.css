@@ -5,7 +5,7 @@
     padding: 1%;
     background: #2f3b77;
     color: #ffffff;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 #main-footer a {
@@ -20,6 +20,13 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+/* medium screens */
+@media only screen  and (min-width : 799px) and (max-width: 1299px) {
+    #main-footer {
+        font-size: 1rem;
+    }
 }
 
 /* Extra-large screens */

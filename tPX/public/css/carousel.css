@@ -33,7 +33,7 @@
 }
 
 .carousel-bottom-container {
-  margin: 5% 1% 12% 1%;
+  margin: 5% 9% 12% 9%;
 }
 
 .carousel-bottom-p {
@@ -44,7 +44,7 @@
 }
 
 .carousel-bottom-p-1 {
-  font-size: .9rem;
+  font-size: .8rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: #4B4B4B;
@@ -58,7 +58,7 @@
 }
 
 .carousel-bottom-p-2 {
-  font-size: 1rem;
+  font-size: .8rem;
   color: #4B4B4B;
   line-height: 1.5rem;
   font-family: 'Lato', sans-serif;
@@ -75,14 +75,14 @@
 }
 
 .carousel-section h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 900;
   margin-top: 3rem;
   padding-top: 0%;
 }
 
 .carousel-section-top {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 3.5rem;
   color: #2f3b77;
 }
@@ -132,12 +132,12 @@
 
 @media only screen  and (min-width : 799px) {
   .carousel-section h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-top: 0;
   }
 
   .carousel-section-top {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .carousel-section {
@@ -157,11 +157,11 @@
   }
 
   .carousel-bottom-p-1 {
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   .carousel-bottom-p-2 {
-    font-size: .9rem;
+    font-size: 1rem;
   }
 }
 

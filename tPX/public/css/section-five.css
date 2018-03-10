@@ -9,13 +9,15 @@
 .section-five h1 {
     margin: 2rem 0 3rem 0;
     font-weight: 900;
+    font-size: 2rem;
 }
 
 .partrners-flex-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 25px;
     grid-auto-rows: minmax(100px, auto);
+    margin: 0 9% 0 9%;
 }
 
 .logo-one {
@@ -28,7 +30,6 @@
 
 .logo-three {
     grid-column: 3;
-    margin-top: 1rem;
 }
 
 .partrners-flex-container img {
@@ -39,7 +40,7 @@
 /* Mediaum Screens */
 @media only screen  and (min-width : 799px) {
     .section-five h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin: 0 0 6rem 0;
     }
 

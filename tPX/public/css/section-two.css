@@ -18,12 +18,13 @@
 .brochure-card-overlay-1 h2 {
     font-size: 1.2rem;
     color: #4B4B4B;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
     font-weight: 900;
+    margin-top: 5%;
 }
 
 .brochure-card-overlay-1 p {
-    font-size: .9rem;
+    font-size: .8rem;
     color: #4B4B4B;
     font-weight: 400;
     line-height: 1.8rem;
@@ -54,7 +55,7 @@
     font-weight: 400;
     color: #4B4B4B;
     list-style: none;
-    font-size: .9rem;
+    font-size: .8rem;
     text-align: left;
     font-family: 'Lato', sans-serif;
 }
@@ -73,7 +74,7 @@
 
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 8%;
     margin: 0% 0% 14% 0;
 }
@@ -174,14 +175,14 @@
 
 .reading-mountains-paragraph {
     color: #00A7FF;
-    font-size: .8rem;
+    font-size: .9rem;
     margin-top: -2%;
     line-height: 1.4;
-    padding: 0 1% 0 1%;
+    padding: 0 9% 0 9%;
 }
  
 .brochure-card-overlay-bottom-paragraph {
-    margin: 1% 0 5% 0;
+    margin: 1% 9% 5% 9%;
     color: #707070;
     font-size: .7rem;
     font-family: 'Lato', sans-serif;
@@ -209,13 +210,14 @@
 /* start  */
 
 .brochure-card-overlay-1 {
-    margin: 0 1% 0 1%;
+    margin: 0 9% 0 9%;
 }
 
 .section-two-grid-container strong {
     color: #2F3B77;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
+    font-size: .8rem;
 }
 
 h4.agenda-title {
@@ -321,9 +323,8 @@ h4.agenda-title {
 }
 
 @media only screen  and (min-width : 799px) {
-
     .brochure-card-overlay-1 p {
-        font-size: 	1.25rem;
+        font-size: 	1rem;
     }
 
     .wrapper-agenda {
@@ -339,7 +340,7 @@ h4.agenda-title {
     }
 
     .brochure-card-overlay-1 li {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .agenda-day {
@@ -356,7 +357,7 @@ h4.agenda-title {
     }
 
     .brochure-card-overlay-bottom-paragraph {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .brochure-card-overlay-bottom-button {

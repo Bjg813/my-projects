@@ -24,16 +24,14 @@
 
 span.closeBtn {
     position: absolute;
-    bottom: 23px;
-    right: 23px;
-    transition: all .2s ease-in-out;
+    top: 51px;
+    right: 10px;
 }
 
 .closeBtn:hover, closeBtn:focus {
     color: #2f3b77;
     text-decoration: none;
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 @keyframes modalopen {
@@ -51,8 +49,16 @@ span.closeBtn {
         font-size: 1.5rem;
     }
 
-    .closeBtn:hover:before, closeBtn:focus:before {
-        content: "Exit ";
+    span.closeBtn {
+        position: absolute;
+        bottom: 23px;
+        right: 16wpx;
+    }
+    
+    .closeBtn:hover, closeBtn:focus {
+        color: #2f3b77;
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 
