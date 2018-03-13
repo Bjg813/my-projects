@@ -15,7 +15,7 @@
 
 .modal-content {
     background-color: transparent;
-    margin: 1% auto;
+    margin: 0% auto;
     padding: 15px;
     width: 95%;
     animation-name: modalopen;

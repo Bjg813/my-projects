@@ -141,7 +141,7 @@
   }
 
   .carousel-section {
-    margin: 7% 24.3% 0 24.3%;
+    margin: 7% 19% 0 19%;
   }
 
   .carousel-bottom-container {
@@ -167,7 +167,7 @@
 
 @media screen and ( min-width: 1300px ) {
   .carousel-section {
-    margin: 7% 23% 0 26%;
+    margin: 7% 17% 0 17%;
   }
 
   .carousel-bottom-p { 
