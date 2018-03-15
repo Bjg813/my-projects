@@ -27,12 +27,8 @@
 	}
 
 	.contact {
-		position: relative;
-		background-position: center top;
-		background-repeat: no-repeat;
-		background-attachment: scroll;
-		background-image: url(../images/modal-background-image.png);
-		padding-bottom: 8%;
+		background-color: #ffffff;
+		margin-bottom: 10%;
 	}
 
 	/* FORM STYLES */
@@ -41,6 +37,7 @@
 		grid-template-columns: repeat(5, 1fr);
 		grid-gap: .5rem;
 		touch-action: none;
+		padding-bottom: 100%
 	}
 
 	.contact form label {
@@ -56,7 +53,7 @@
 	}
 
 	.contact form .full {
-		grid-column: 1 / 6;
+		grid-column: 2 / 5;
 	}
 
 	.contact form button, .contact form input, .contact form textarea {
@@ -72,7 +69,7 @@
 		border: 0;
 		text-transform: uppercase;
 		color: #ffffff;
-		font-size: 1rem;
+		font-size: .75rem;
 		font-family: 'Lato', sans-serif;
 		font-weight: bold;
 		padding: 4% 0 4% 0;
@@ -125,12 +122,12 @@
 		/* margin-left: auto; */
 		/* margin-right: auto; */
 		width: 96%;
-		padding-top: 44%;
+		padding-top: 32%;
 	}
 
 	.modal-logo-container img {
 		height: auto;
-		width: 78%;
+		width: 50%;
 	}
 
 	#contactForm input:focus { 
@@ -152,9 +149,23 @@
 		.contact {
 			padding-bottom: 18%;
 		}
+
+		.contact form {
+			padding-bottom: 0;
+		}
 	 }
 
 	@media only screen  and (min-width : 799px) {
+		.contact {
+			position: relative;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-image: url(../images/modal-background-image.png);
+			padding-bottom: 8%;
+			background-color: transparent;
+		}
+
 		.modal-logo-insight {
 			font-size: 1.4rem;
 			color: #ffffff;
@@ -179,6 +190,10 @@
 		.contact {
 			padding-bottom: 18%;
 		}
+
+		.contact form {
+			padding-bottom: 0;
+		}
 		
 		.contact form .full {
 			grid-column: 2 / 5;
@@ -198,6 +213,15 @@
 
 	/* LARGE SCREEN */
 	@media only screen and (min-width:1300px) {
+		.contact {
+			position: relative;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-image: url(../images/modal-background-image.png);
+			padding-bottom: 8%;
+		}
+
 		.modal-logo-insight {
 			font-size: 1.4rem;
 			color: #ffffff;
@@ -222,6 +246,10 @@
 
 		.container-contact {
 			max-width: 77%;
+		}
+
+		.contact form { 
+			padding-bottom: 0;
 		}
 		
 		.contact form .full {
