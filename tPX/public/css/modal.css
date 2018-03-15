@@ -59,8 +59,8 @@ span.closeBtn {
 
     span.closeBtn {
         position: absolute;
-        bottom: 23px;
-        right: 16wpx;
+        right: 2%;
+        top: 6%;
     }
     
     .closeBtn:hover, closeBtn:focus {
@@ -82,8 +82,8 @@ span.closeBtn {
     }
     span.closeBtn {
         position: absolute;
-        top: 55px;
-        right: 16px;
+        top: 7%;
+        right: 6%;
         font-size: 2rem;
         transition: none;
     }
