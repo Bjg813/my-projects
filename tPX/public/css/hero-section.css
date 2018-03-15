@@ -83,7 +83,7 @@
     /* padding: 2rem; */
     text-transform: uppercase;
     font-weight: 400;
-    font-size: .8rem;
+    font-size: .5rem;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
@@ -148,6 +148,7 @@
     .hero-item-3 .hero-button {
         margin: 0 -30% 0 -21%;
         padding: 12% 13% 10% 12%;
+        font-size: .8rem;
     }
 
     .hero-item-5 {
