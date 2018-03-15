@@ -24,7 +24,9 @@
 
 span.closeBtn {
     position: absolute;
-   right: 6%;
+    right: 6%;
+    top: 4%;
+    font-size: 2rem;
 }
 
 .closeBtn:hover, closeBtn:focus {

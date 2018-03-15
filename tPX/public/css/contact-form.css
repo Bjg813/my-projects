@@ -127,7 +127,7 @@
 
 	.modal-logo-container img {
 		height: auto;
-		width: 50%;
+		width: 60%;
 	}
 
 	#contactForm input:focus { 
@@ -209,6 +209,14 @@
 			height: auto;
 			width: 100%;
 		}
+
+		#attend {
+			padding-bottom: 8%;
+		}
+
+		#questions {
+			padding-bottom: 8%;
+		}
 	}
 
 	/* LARGE SCREEN */
@@ -265,5 +273,13 @@
 		.modal-logo-container img {
 			height: auto;
 			width: 100%;
+		}
+
+		#attend {
+			padding-bottom: 8%;
+		}
+
+		#quesitons {
+			padding-bottom: 8%;
 		}
 	}
