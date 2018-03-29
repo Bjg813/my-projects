@@ -162,7 +162,7 @@
     grid-column: col 4 / span 3;
     grid-row: row 2;
     z-index: 20;
-    margin: 34% 0rem 1% 26%;
+    margin: 15% 9% 1% 17%;
     text-align: left;
     line-height: 2rem;
 }
@@ -252,7 +252,7 @@ h4.agenda-title {
 }
 
 .right-top-stars {
-    margin: 30% 0rem 2% 26%;
+    margin: 22% 0% 0% 8%;
 }
 
 /* mobile screens */
@@ -431,6 +431,7 @@ h4.agenda-title {
   
     .right {
        font-size: 2rem;
+       margin: 30% 4% 0% 8%;
     }
 
     .reading-mountains-paragraph {
