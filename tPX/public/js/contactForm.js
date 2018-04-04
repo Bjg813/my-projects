@@ -22,13 +22,14 @@ function submitForm(e) {
 
     // Get values
     let name = getInputVal('name');
+    let title = getInputVal('title');
     let company = getInputVal('company');
     let email = getInputVal('email');
     let attend = getInputVal('attend');
     let questions = getInputVal('questions');
 
     // Save Message
-    saveMessage(name, company, email, attend, questions);
+    saveMessage(name, title, company, email, attend, questions);
 
     // Show alert
     document.querySelector('.alert').style.display = 'block';
@@ -48,10 +49,11 @@ function getInputVal(id) {
 }
 
 // Save message to firebase
-function saveMessage(name, company, email, attend, questions) {
+function saveMessage(name, title, company, email, attend, questions) {
     let newMessageRef = messageRef.push();
     newMessageRef.set({
         name: name,
+        title: title,
         company: company,
         email: email,
         attend: attend,
