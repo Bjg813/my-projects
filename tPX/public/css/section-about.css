@@ -1,0 +1,38 @@
+/***************************************
+           section-about.css
+***************************************/
+.section-about {
+    background-color: #F7F7F7;
+}
+
+.section-about h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.section-about-paragraph {
+    color: pink;
+    font-size: 2rem;
+}
+
+.about-card-small {
+    background-color: #ffffff;
+}
+
+.about-card-small h4 {
+    font-size: 2rem;
+    color: #4B4B4B;
+    font-weight: 900;
+}
+
+.about-card-small-subheading {
+    font-size: 1.25rem;
+    color: #00A7FF;
+    font-weight: 400;
+}
+
+.about-card-large h4 {
+    font-size: 2rem;
+    color: #4B4B4B;
+    font-weight: 900;
+}

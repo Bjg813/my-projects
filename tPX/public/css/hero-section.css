@@ -64,7 +64,6 @@
     font-weight: bolder;
     color: #4B4B4B;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
-    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     margin: 0 10% 0 -10%;
 }
@@ -85,13 +84,13 @@
     font-weight: 400;
     font-size: .5rem;
     -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
-    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.17);
     margin: 0 -12% 0 -28%;
 }
 
 .hero-item-3 .hero-button:hover, .hero-item-3 .hero-button:focus {
     background-color: #010d47;
+    -webkit-transition: background-color .5s ease-out;
     transition: background-color .5s ease-out;
     color: #ffffff;
 }
@@ -106,6 +105,8 @@
 
 
 .hero-item-3 .hero-date-location-container {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     width: 72%;
     margin: auto;
@@ -125,9 +126,9 @@
     }
 
     .hero-item-1 h1 {
-     font-size: 3.5rem;
-     margin-top: 6.5%;
-     margin-left: 3%;
+        font-size: 3.5rem;
+        margin-top: 6.5%;
+        margin-left: 3%;
     }
 
     .hero-item-1 p {

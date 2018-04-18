@@ -14,10 +14,10 @@ nav {
 
 .navbar.scrolled {
     background-color: #2f3b77;
+    -webkit-transition: background-color 400ms linear;
     transition: background-color 400ms linear;
     opacity: .9;
     -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
-    -moz-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
     box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
 }
 
@@ -52,12 +52,12 @@ nav {
     margin: -.66% -2% 0 1%;
     background-color: #7E9500;
     border-left-color: #7E9500;
+    -webkit-transition: background-color .5s ease-out;
     transition: background-color .5s ease-out;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bolder;
     -webkit-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
-    -moz-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
     box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
     font-size: .1rem;
 }
@@ -83,6 +83,22 @@ p.logo-paragraph {
 .navbar ul {
     margin: 0.5% 0 0 0;
     list-style: none;
+}
+
+/* navbar vertical line dividing date and menu */
+li.vertical-line-image-header {
+    margin-left: 48%;
+}
+
+/* navbar date of conference */
+.navbar .navbar-nav h4 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: 31%;
+    margin-bottom: -4%;
+    letter-spacing: .07rem;
+    padding-top: 1.4%;
 }
 
 /* Small screen */

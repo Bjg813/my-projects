@@ -18,7 +18,9 @@
     margin: 0% auto;
     /* padding: 15px; */
     width: 100%;
+    -webkit-animation-name: modalopen;
     animation-name: modalopen;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
@@ -33,6 +35,11 @@ span.closeBtn {
     color: #2f3b77;
     text-decoration: none;
     cursor: pointer;
+}
+
+@-webkit-keyframes modalopen {
+    from {opacity: 0}
+    to {opacity: 1}
 }
 
 @keyframes modalopen {
@@ -84,15 +91,16 @@ span.closeBtn {
         top: 7%;
         right: 6%;
         font-size: 2rem;
+        -webkit-transition: none;
         transition: none;
     }
 
     .closeBtn:hover, closeBtn:focus {
+        -webkit-transform: none;
         transform: none;
     }
 
     .closeBtn:hover:before, closeBtn:focus:before {
         content: "";
     }
-    
 }

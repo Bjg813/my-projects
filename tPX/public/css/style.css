@@ -12,6 +12,10 @@ html, body {
     color: #2f3b77;
 }
 
+main p {
+    font-weight: 300;
+}
+
 h1, h2, h3, h4, .slider-wrap span {
     font-family: 'Montserrat', sans-serif;
 }
