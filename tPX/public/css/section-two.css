@@ -187,25 +187,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-.brochure-card-overlay-bottom-button {
-    padding: 4% 8% 4% 8%;
-    background-color: transparent;
-    color: #2F3B77;
-    font-family: 'Lato', sans-serif;
-    margin: -2% auto 7% auto;
-    font-weight: 700;
-    border: #2F3B77 solid .1rem;
-    font-size: .5rem;
-    /* margin-top: 5%; */
-    margin: 5% 0 12% 0;
-
-}
-
-.brochure-card-overlay-bottom-button:hover, .brochure-card-overlay-bottom-button:focus {
-    background-color: #2F3B77;
-    color: #ffffff;
-}
-
 /* start  */
 
 .brochure-card-overlay-1 {
@@ -299,6 +280,7 @@ h4.agenda-title {
 
 
 @media only screen and (min-width: 800px) {
+    
     .brochure-card-overlay-1 {
         margin: -8% 19% 0 19%;
     }
