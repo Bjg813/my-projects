@@ -1,15 +1,7 @@
 /***************************************
             Section-one.css
 ***************************************/
-.section-one {
-    position: relative;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-image: url(../images/background-image-trails.png);
-    margin-top: -37%;
-    background-size: cover;
-}
+
 
 /* use margin to control overlap of section-one-container */
 .section-one-container {

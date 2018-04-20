@@ -263,6 +263,26 @@
         font-size: 1.8rem;
         margin: 0 -5% 1% 0;
     }
+
+    .container-image-engagers-title-coming-soon {
+        position: absolute;
+        top: 42%;
+        left: 51%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: left;
+    }
+    
+    h4.engagers-business-position-coming-soon {
+        font-weight: 300;
+    }
+
+    .container-coming-soon {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
 }
 
 /* Extra-large screens */

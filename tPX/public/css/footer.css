@@ -58,4 +58,12 @@
     #main-footer {
         font-size: 1.25rem;
     }
+
+    .footer-vertical-line {
+        display: block;
+    }
+
+    .footer-flex {
+        padding: 0;
+    }
 }

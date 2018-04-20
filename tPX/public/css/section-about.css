@@ -68,13 +68,13 @@
 }
 
 .section-about hr {
-    margin: 8% 90% 8% 0%;
+    margin: 5% 90% 4% 0%;
     border: 0.5px solid #4B4B4B;
 }
 
 .about-card-paragraph {
     font-size: 0.8rem;
-    line-height: 1.3rem;
+    line-height: 2rem;
 }
 
 .section-about img {
@@ -100,6 +100,10 @@
     color: #ffffff;
 }
 
+h1#engagers {
+    padding: 5% 0 0 0;
+}
+
 /* Medium screens */
 @media only screen  and (min-width : 799px) {    
     .section-about h1 {
@@ -115,7 +119,7 @@
     }
 
     .about-card-small-container {
-        margin: 5% 18%;
+        margin: 5% 15%;
     }
 
     .about-card-small-container h4 {
@@ -140,6 +144,7 @@
 
     .about-card-small-list-items {
         font-size: 1rem;
+        line-height: 2rem;
     }
 }
 
@@ -163,9 +168,26 @@
     
     .about-card-small-subheading {
         font-size: 1.25rem;
+        line-height: 2rem;
     }
     
     .about-card-large h4 {
         font-size: 2rem;
+    }
+
+    .about-card-small-container h4 {
+        font-size: 2rem;
+    }
+
+    .about-card-paragraph {
+        font-size: 1.25rem;
+    }
+
+    .about-card-small-list-items {
+        font-size: 1.25rem;
+    }
+
+    .about-card-small-container {
+        margin: 5% 17%;
     }
 }

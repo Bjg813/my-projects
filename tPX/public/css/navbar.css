@@ -176,5 +176,9 @@ li.vertical-line-image-header {
         width: 100%;
     }
 
+    .navbar .navbar-nav h4 {
+        margin-bottom: -3.5%;
+        padding-top: 1.5%;
+    }
 }
 

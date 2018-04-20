@@ -175,9 +175,9 @@ img.box.d {
     grid-column: col 4 / span 3;
     grid-row: row 2;
     z-index: 20;
-    margin: 23% 0% 0% -84%;
+    margin: 25% 0% 0% -84%;
     text-align: left;
-    line-height: 2rem;
+    line-height: 1rem;
 }
 
 .right p {
@@ -311,7 +311,6 @@ h4.agenda-title {
     .brochure-card-overlay-1 h2 {
         margin-bottom: -5%;
     }
-    
 }
 
 
@@ -359,11 +358,11 @@ h4.agenda-title {
     }
 
     .brochure-card-overlay-1 h2 {
-        margin-top: 2%;
+        margin-top: 16%;
     }
 
     .brochure-card-overlay-1 {
-        margin: -8% 18.7% 0 18.7%;
+        margin: 0 18.7% 0 18.7%;
     }
 
     .brochure-card-overlay-1 a {
@@ -420,9 +419,18 @@ h4.agenda-title {
     }
 
     p.agenda-subparagraph {
-        line-height: 1.5rem;
-        margin: 0 10% 8% 10%;
+        line-height: 2rem;
+        margin: 0 20% 2% 20%;
         font-size: 1.5rem;
+    }
+
+    .section-agenda {
+        position: relative;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-image: url(../images/background-image-trails.png);
+        background-size: 100% 78%;
     }
     
 }
@@ -458,12 +466,11 @@ h4.agenda-title {
     }
     
     .agenda-title {
-        font-size: 4.0625rem;
+        font-size: 3.125rem;
     }
-  
-    .right {
-       font-size: 2rem;
-       margin: 30% 4% 0% 8%;
+
+    .right p {
+        font-size: 1.25rem;
     }
 
     .reading-mountains-paragraph {
@@ -476,26 +483,28 @@ h4.agenda-title {
     }
 
     .brochere-card-overlay-bottom-agenda {
-        margin: -1% 0% 5% 0;
+        margin: 0% 0% 2% 0;
         font-size: 5rem;
         padding-top: 8%;
     }
 
     .brochure-card-overlay-bottom-button {
         padding: 1.6% 2.3% 1.6% 2.3%;
-        margin: 0 auto 12% auto;
+        margin: 0 auto 5% auto;
         font-size: 1rem;
     }
 
     .wrapper-agenda {
-        grid-template-columns: repeat(6, [col] 12rem );
+        grid-template-columns: repeat(6, [col] 11rem );
     }
 
     .reading-man-sketch-container {
         margin: 5% 35% 1% 35%;
     }
-    
 
+    .section-agenda {
+        background-size: 100% 77%;
+    }
 }
 
 
