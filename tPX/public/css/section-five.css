@@ -2,8 +2,8 @@
             Section-five.css
 ***************************************/
 .section-five {
-    background-color: #F7F7F7;
-    padding: 8% 0 4% 0;
+    background-color: #ffffff;
+    padding: 8% 8% 4% 8%;
 }
 
 .section-five h1 {
@@ -37,6 +37,11 @@
     width: 100%;
 }
 
+.section-five-bold-paragraph {
+    font-weight: 900;
+    margin: 5% 0 0 0;
+}
+
 /* Mediaum Screens */
 @media only screen  and (min-width : 799px) {
     .section-five h1 {
@@ -61,6 +66,10 @@
     .logo-three {
         grid-column: 7;
         margin-top: 1rem;
+    }
+
+    .section-five p {
+        font-size: 1.1rem;
     }
 }
 

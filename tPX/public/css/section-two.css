@@ -31,19 +31,8 @@
 }
 
 .brochure-card-overlay-1 ul {
-    margin: .4% 15% 5% 6%;
-    padding: 3.4% 0% 2.4% 4%;
-    background-color: #ffffff;
-    color: #2f3b77;
-    text-align: left;
-    margin-top: 5%;
-    -webkit-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
-    box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
-}
-
-.brochure-card-overlay-1 ul img {
-    margin: 0 25% 0 -1%;
-    display: inline-block;
+    padding: 3.4% 0% 5% 4%;
+    text-align: center;
 }
 
 .brochure-card-overlay-1 li {
@@ -51,16 +40,16 @@
     line-height: 164%;
     margin-right: -2%;
     font-weight: 400;
-    color: #4B4B4B;
     list-style: none;
     font-size: .8rem;
     text-align: left;
     font-family: 'Lato', sans-serif;
+    color: #7E9500;
 }
 
 .brochure-card-overlay-1 li::before { 
     content: "• ";
-    color: #2F3B77;
+    color: #7E9500;
     margin-right: 1%;
     font-weight: 700;
 }
@@ -69,12 +58,37 @@
     margin-left: 1.1%;
 }
 
+.section-two-list-items-container-2 li {
+    padding: 0 0 0 9%;
+    line-height: 164%;
+    margin-right: -2%;
+    font-weight: 400;
+    list-style: none;
+    font-size: .8rem;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #FF0000;
+}
+
+.section-two-list-items-container-2 li::before { 
+    content: "• ";
+    color: #FF0000;
+    margin-right: 1%;
+    font-weight: 700;
+}
+
 
 .brochere-card-overlay-bottom-agenda {
     font-weight: 900;
     font-size: 2rem;
     padding-top: 8%;
-    margin: 0% 0% 14% 0;
+    margin: 0% 0% 4% 0;
+}
+
+p.agenda-subparagraph {
+    padding: 1% 6%;
+    line-height: 1.2rem;
+    margin: 0 0 8% 0;
 }
 
 .wrapper-agenda {
@@ -88,6 +102,11 @@
     padding: 1%;
     font-size: 150%;
     z-index:10;
+}
+
+img.box.d {
+    height: auto;
+    width: 100%;
 }
 
 .d img {
@@ -105,8 +124,7 @@
 
 .f {
     grid-column: col 1 / span 3;
-    grid-row: row 2  ;
-    background-color: rgba(126, 149, 0, 0.6);
+    grid-row: row 2;
     margin: 7% -3% 7% 7%;
 }
 
@@ -157,9 +175,14 @@
     grid-column: col 4 / span 3;
     grid-row: row 2;
     z-index: 20;
-    margin: 15% 9% 1% 17%;
+    margin: 23% 0% 0% -84%;
     text-align: left;
     line-height: 2rem;
+}
+
+.right p {
+    font-size: 0.8rem;
+    color: #ffffff;
 }
 
 .right h4 {
@@ -193,16 +216,24 @@
     margin: 0 9% 0 9%;
 }
 
-.section-two-grid-container strong {
-    color: #2F3B77;
+.section-two-list-items-container-1 strong {
+    color: #7E9500;
     font-weight: 900;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
+}
+
+.section-two-list-items-container-2 strong {
+    color: #FF0000;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
 }
 
 h4.agenda-title {
     text-align: left;
     margin: 0 0 26% 8%;
+    font-weight: 700;
 }
 
 .agenda-flex-container {
@@ -236,6 +267,11 @@ h4.agenda-title {
     margin: 22% 0% 0% 8%;
 }
 
+.section-agenda {
+    background-color: #ffffff;
+    padding: 10% 0;
+}
+
 /* mobile screens */
 @media only screen  and (max-width : 799px) {
     .wrapper-agenda {
@@ -253,7 +289,7 @@ h4.agenda-title {
     }
 
     .f {
-        margin: 7% -9% 8% 7%;
+        margin: 0% 0% 0% 9%;
     }
 
     .right {
@@ -269,7 +305,7 @@ h4.agenda-title {
     }
 
     .brochure-card-overlay-1 ul {
-        margin: 5% 4% 2% 6%;
+        margin: 10% 0% 2% 0%;
     }
 
     .brochure-card-overlay-1 h2 {
@@ -362,7 +398,7 @@ h4.agenda-title {
     .brochure-card-overlay-bottom-button {
         padding: 1.6% 3.3% 1.6% 3.3%;
         font-size: .7rem;
-        margin: 0 auto 12% auto;
+        margin: 0 auto 6% auto;
     }
 
     .brochere-card-overlay-bottom-agenda {
@@ -377,6 +413,16 @@ h4.agenda-title {
 
     .section-two-grid-container strong {
         font-size: 1rem;
+    }
+
+    .section-agenda {
+        padding: 0;
+    }
+
+    p.agenda-subparagraph {
+        line-height: 1.5rem;
+        margin: 0 10% 8% 10%;
+        font-size: 1.5rem;
     }
     
 }

@@ -16,6 +16,10 @@
     margin: 0 3rem 0 3rem;
 }
 
+.footer-vertical-line {
+    display: none;
+}
+
 .footer-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -26,12 +30,26 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 35%;
+}
+
+.footer-flex p {
+    margin: 10% 0;
 }
 
 /* medium screens */
 @media only screen  and (min-width : 799px) and (max-width: 1299px) {
     #main-footer {
         font-size: 1rem;
+    }
+
+    .footer-vertical-line {
+        display: block;
+    }
+
+    .footer-flex {
+        padding: 0%;
     }
 }
 

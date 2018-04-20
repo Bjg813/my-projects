@@ -76,7 +76,8 @@
 
 .carousel-section {
   margin: 7% 0% 0 0%;
-  padding-top: .1rem;
+  padding: 5% 0;
+  background-color: #F7F7F7;
 }
 
 .carousel-section h1 {
@@ -123,6 +124,10 @@
 /* hide disabled button */
 .flickity-prev-next-button:disabled {
   display: none;
+}
+
+.carousel-bottom-p-1 a {
+  color: #00A7FF;
 }
 
 @media only screen  and (max-width : 799px) {
