@@ -507,11 +507,9 @@ h4.agenda-title {
 
     .wrapper-agenda {
         grid-template-columns: repeat(6, [col] 11rem );
+        margin: 0% 0%;
     }
-
-    .reading-man-sketch-container {
-        margin: 5% 35% 1% 35%;
-    }
+       
 }
 
 
