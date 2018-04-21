@@ -113,31 +113,34 @@
   }
   
 .container-image-engagers-title {
-      position: absolute;
-      top: 84%;
-      left: 40%;
-      -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-      text-align: left;
+    position: absolute;
+    top: 79%;
+    left: 40%;
+    right: 0%;
+    bottom: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin: 0 -9% 0 0;
   }
 
 .engagers-name {
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 900;
     padding-bottom: 0;
     margin: 0 0 -3% 0;
 }
 
 .engagers-business-position {
     font-size: 0.7rem;
-    font-weight: 100;
+    font-weight: 500;
     padding-top: .6rem;
     margin-right: -3%;
 }
 
   .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 97%;
     left: 0;
     right: 0;
     background-color: #00A7FF;
@@ -146,7 +149,6 @@
     height:0;
     -webkit-transition: .5s ease;
     transition: .5s ease;
-    opacity: .8;
   }
   
   .container:hover .overlay {
@@ -157,7 +159,7 @@
   
   .text {
     position: absolute;
-    margin: 31% -22% 0% 49%;
+    margin: 31% -40% 0% 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -168,10 +170,11 @@
       font-weight: 400;
       text-align: center;
       font-size: .8rem;
+      font-family: 'Montserrat', sans-serif;
   }
 
 .overlay-button {
-    margin-top: 18rem;
+    margin-top: 12rem;
     padding: 1rem 2rem 1rem 2rem;
     background-color: transparent;
     border: solid #ffffff 2px;
@@ -218,8 +221,47 @@
     margin: 3% 0 0 0;
 }
 
+.container-image-engagers-title-coming-soon {
+    position: absolute;
+    padding-bottom: 74%;
+    left: 50%;
+    color: #ffffff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+h4.engagers-business-position-coming-soon {
+    font-weight: 400;
+}
+
+.container-coming-soon {
+margin: 0 0 5% 0;
+}
+
+h4.engagers-name-martin {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin: 0 0 -3% 0;
+  }
+
+h4.engagers-business-position-martin {
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding-top: .6rem;
+    padding: 4% 0% 0 0%;
+}
+
 /* Medium screens */
 @media only screen and (min-width: 799px) {
+    .overlay {
+        bottom: 100%;
+    }
+    .overlay-button {
+        margin-top: 18rem;
+    }
+
     .grid-section-four {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -260,21 +302,32 @@
     }
 
     .engagers-name {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         margin: 0 -5% 1% 0;
+    }
+
+    .engagers-business-position {
+       font-size: 1.1rem; 
+    }
+
+    h4.engagers-business-position.move-position {
+        padding: 0% 0 0% 0;
+        margin: -3% 0 0 0;
     }
 
     .container-image-engagers-title-coming-soon {
         position: absolute;
-        top: 42%;
+        top: 91%;
         left: 51%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: left;
+        margin: 0 -5% 0 0%;
     }
     
     h4.engagers-business-position-coming-soon {
         font-weight: 300;
+        font-size: 2rem;
     }
 
     .container-coming-soon {
@@ -282,7 +335,23 @@
         width: 100%;
         text-align: center;
         color: white;
+        margin: 0;
     }
+
+    h4.engagers-name-martin {
+        font-size: 1.8rem;
+        margin: 0 10% 1% 12%;
+        font-weight: 700;
+      }
+    
+      h4.engagers-business-position-martin {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding-top: .6rem;
+        /* margin-right: -3%; */
+        /* margin: 0 1%; */
+        padding: 4% 0% 0 12%;
+      }
 }
 
 /* Extra-large screens */

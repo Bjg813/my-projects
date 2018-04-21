@@ -26,7 +26,7 @@
     -webkit-box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
     box-shadow: 0px 3px 15px 0px rgba(47,59,119,0.16);
     text-align: left;
-    padding: 0% 5% 6% 5%;
+    padding: 0% 4% 6% 4%;
 }
 
 .about-card-small-container h4 {
@@ -47,14 +47,15 @@
     color: #7E9500;
     font-weight: 400;
     padding: 0;
-    margin: 1% 0 0 0;
+    margin: 0 0 0 0;
+    line-height: 1.2rem;
 }
 
 .about-card-small-list-items li::before {
     content: "• ";
     color: #7E9500;
     margin-right: 0%;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .about-card-large-container {
@@ -74,7 +75,7 @@
 
 .about-card-paragraph {
     font-size: 0.8rem;
-    line-height: 2rem;
+    line-height: 1rem;
 }
 
 .section-about img {
@@ -101,7 +102,7 @@
 }
 
 h1#engagers {
-    padding: 5% 0 0 0;
+    padding: 0 0 0 0;
 }
 
 /* Medium screens */
@@ -136,6 +137,7 @@ h1#engagers {
 
     .about-card-paragraph {
         font-size: 1rem;
+        line-height: 1.5;
     }
     
     .about-card-large h4 {
@@ -144,7 +146,7 @@ h1#engagers {
 
     .about-card-small-list-items {
         font-size: 1rem;
-        line-height: 2rem;
+        line-height: 1.875;
     }
 }
 

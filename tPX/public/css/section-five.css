@@ -39,7 +39,15 @@
 
 .section-five-bold-paragraph {
     font-weight: 900;
-    margin: 5% 0 0 0;
+    margin: 2% 0 0% 0;
+}
+
+.section-five h4 {
+    font-size: 1rem;
+    color: #00A7FF;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 15% 0% 8% 0%;
 }
 
 /* Mediaum Screens */
@@ -68,17 +76,21 @@
         margin-top: 1rem;
     }
 
-    .section-five h4 {
-        font-size: 1.5rem;
-        color: #00A7FF;
-        line-height: 2rem;
-        font-weight: 400;
-        padding: 8% 10% 8% 10%;
-    }
-
     .section-five p {
         font-size: 1.2rem;
-        line-height: 2rem;
+        line-height: 1.2;
+    }
+
+    .section-five h4 {
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 8% 12% 8% 12%;
+    }
+
+    .section-five h4 {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        padding: 8% 12% 8% 12%
     }
 }
 
@@ -122,6 +134,7 @@
     .section-five h4 {
         font-size: 2rem;
         padding: 8% 0 8% 0;
+        line-height: 1.5;
     }
 
     .section-five p {
