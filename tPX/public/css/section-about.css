@@ -54,7 +54,7 @@
 .about-card-small-list-items li::before {
     content: "• ";
     color: #7E9500;
-    margin-right: 0%;
+    margin-right: 0.1%;
     font-weight: 400;
 }
 
@@ -183,10 +183,13 @@ h1#engagers {
 
     .about-card-paragraph {
         font-size: 1.25rem;
+        line-height: 30px;
     }
 
     .about-card-small-list-items {
         font-size: 1.25rem;
+        margin: 1% 0 0 0;
+        line-height: 30px;
     }
 
     .about-card-small-container {
