@@ -38,6 +38,16 @@
     margin: 10% 0;
 }
 
+p.footer-company-link {
+    font-weight: 400;
+    margin: -2% 0 1% 0;
+}
+
+p.footer-company-link a {
+    font-weight: 900;
+    letter-spacing: .05rem;
+}
+
 /* medium screens */
 @media only screen  and (min-width : 799px) and (max-width: 1299px) {
     #main-footer {
@@ -50,6 +60,10 @@
 
     .footer-flex {
         padding: 0%;
+    }
+
+    p.footer-company-link {
+        margin: 1.5% 0 1% 0;
     }
 }
 
@@ -65,5 +79,9 @@
 
     .footer-flex {
         padding: 0;
+    }
+
+    p.footer-company-link {
+        font-size: 1.125rem;
     }
 }
