@@ -40,7 +40,8 @@
 
 p.footer-company-link {
     font-weight: 400;
-    margin: -2% 0 1% 0;
+    margin: -3% 0 1% 0;
+    font-size: 0.7rem;
 }
 
 p.footer-company-link a {
@@ -64,6 +65,7 @@ p.footer-company-link a {
 
     p.footer-company-link {
         margin: 1.5% 0 1% 0;
+        font-size: 1rem;
     }
 }
 
@@ -83,5 +85,6 @@ p.footer-company-link a {
 
     p.footer-company-link {
         font-size: 1.125rem;
+        margin: 1.5% 0 1% 0;
     }
 }
