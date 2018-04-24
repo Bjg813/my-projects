@@ -146,7 +146,8 @@ h1#engagers {
 
     .about-card-small-list-items {
         font-size: 1rem;
-        line-height: 1.875;
+        line-height: 1.5;
+        margin: 1% 0 0 0;
     }
 }
 
@@ -188,7 +189,6 @@ h1#engagers {
 
     .about-card-small-list-items {
         font-size: 1.25rem;
-        margin: 1% 0 0 0;
         line-height: 30px;
     }
 

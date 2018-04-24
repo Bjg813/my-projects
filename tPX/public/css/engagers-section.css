@@ -138,6 +138,10 @@
     margin-right: -3%;
 }
 
+h4.engagers-business-position.move-position {
+    margin: -11% 0 0 0;
+}
+
   .overlay {
     position: absolute;
     bottom: 97%;
@@ -159,7 +163,7 @@
   
   .text {
     position: absolute;
-    margin: 31% -40% 0% 50%;
+    margin: 35% -40% 0% 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -167,14 +171,14 @@
 
   .text p {
       color:  #ffffff;
-      font-weight: 400;
+      font-weight: 800;
       text-align: center;
       font-size: .8rem;
       font-family: 'Montserrat', sans-serif;
   }
 
 .overlay-button {
-    margin-top: 12rem;
+    margin-top: 70%;
     padding: 1rem 2rem 1rem 2rem;
     background-color: transparent;
     border: solid #ffffff 2px;
@@ -258,9 +262,6 @@ h4.engagers-business-position-martin {
     .overlay {
         bottom: 100%;
     }
-    .overlay-button {
-        margin-top: 18rem;
-    }
 
     .grid-section-four {
         display: grid;
@@ -297,22 +298,22 @@ h4.engagers-business-position-martin {
       }
 
     .text p {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 30px;
     }
 
     .engagers-name {
-        font-size: 2.5rem;
-        margin: 0 -5% 1% 0;
+        font-size: 2rem;
+        margin: 0 -10% 3% 0;
     }
 
     .engagers-business-position {
-       font-size: 1.1rem; 
+        font-size: .9rem;
     }
 
     h4.engagers-business-position.move-position {
         padding: 0% 0 0% 0;
-        margin: -3% 0 0 0;
+        margin: -5% 0 0 0;
     }
 
     .container-image-engagers-title-coming-soon {
@@ -322,7 +323,7 @@ h4.engagers-business-position-martin {
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: left;
-        margin: 0 -5% 0 0%;
+        margin: 0 -23% 0 0%;
     }
     
     h4.engagers-business-position-coming-soon {
@@ -379,6 +380,32 @@ h4.engagers-business-position-martin {
         -ms-flex-flow: nowrap;
             flex-flow: nowrap;
         margin: 0;
+    }
+
+    .overlay-button {
+        font-size: 1rem;
+    }
+
+    .text p {
+        font-size: 2rem;
+        line-height: 39px;
+    }
+
+    .engagers-name {
+        font-size: 2.5rem;
+        margin: 0 -5% 3% 0;
+    }
+
+    .engagers-business-position {
+        font-size: 1.125rem;
+    }
+
+    h4.engagers-business-position.move-position {
+        margin: -3% 0 0 0;
+    }
+
+    .container-image-engagers-title-coming-soon {
+        margin: 0 -5% 0 0%;
     }
 }
 
