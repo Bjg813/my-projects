@@ -303,8 +303,8 @@ h4.engagers-business-position-martin {
     }
 
     .engagers-name {
-        font-size: 2rem;
-        margin: 0 -10% 3% 0;
+        font-size: 1.3rem;
+        margin: 0 -10% 0% 0;
     }
 
     .engagers-business-position {
@@ -328,7 +328,7 @@ h4.engagers-business-position-martin {
     
     h4.engagers-business-position-coming-soon {
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .container-coming-soon {
