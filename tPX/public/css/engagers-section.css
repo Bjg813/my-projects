@@ -135,7 +135,7 @@
     font-size: 0.7rem;
     font-weight: 500;
     padding-top: .6rem;
-    margin-right: -3%;
+    margin-right: -20%;
 }
 
 h4.engagers-business-position.move-position {
@@ -240,7 +240,7 @@ h4.engagers-business-position-coming-soon {
 }
 
 .container-coming-soon {
-margin: 0 0 5% 0;
+    margin: 0 0 5% 0;
 }
 
 h4.engagers-name-martin {
@@ -255,6 +255,16 @@ h4.engagers-business-position-martin {
     font-weight: 300;
     padding-top: .6rem;
     padding: 4% 0% 0 0%;
+}
+
+@media only screen and (min-width: 405px) {
+    .engagers-business-position {
+        padding-top: 4%;
+    }
+
+    h4.engagers-business-position.move-position {
+        margin: -7% 0 0 0;
+    }
 }
 
 /* Medium screens */
@@ -298,17 +308,17 @@ h4.engagers-business-position-martin {
       }
 
     .text p {
-        font-size: 1.3rem;
-        line-height: 30px;
+        font-size: .8rem;
+        line-height: 24px;
     }
 
     .engagers-name {
         font-size: 1.3rem;
-        margin: 0 -10% 0% 0;
+        margin: -3% -11% 0% 0;
     }
 
     .engagers-business-position {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     h4.engagers-business-position.move-position {
@@ -355,6 +365,13 @@ h4.engagers-business-position-martin {
       }
 }
 
+@media only screen and (min-width: 1000px) {
+    .text p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
 /* Extra-large screens */
 @media only screen and (min-width: 1300px) {
     .engagers-text h2 {
@@ -387,7 +404,7 @@ h4.engagers-business-position-martin {
     }
 
     .text p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 39px;
     }
 
@@ -409,11 +426,16 @@ h4.engagers-business-position-martin {
     }
 }
 
+@media only screen and (min-width: 1750px) { 
+    .text p {
+        font-size: 2rem;
+        line-height: 39px;
+    }
+}
+
 
 /* large screens */
 @media only screen and (min-width: 568px) { 
-  
-
     .engagers-logo-container {
         -ms-flex-flow: nowrap;
             flex-flow: nowrap;
