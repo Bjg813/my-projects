@@ -2,183 +2,184 @@
                 navbar.css
 ***************************************/
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent;
-    overflow: hidden;
-    height: 8%;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  height: 8%;
+  z-index: 100;
 }
 
 .navbar.scrolled {
-    background-color: #2f3b77;
-    -webkit-transition: background-color 400ms linear;
-    transition: background-color 400ms linear;
-    opacity: .9;
-    -webkit-box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
-    box-shadow: 0px 13px 45px 0px rgba(47,59,119,0.16);
+  background-color: #2f3b77;
+  -webkit-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 13px 45px 0px rgba(47, 59, 119, 0.16);
+  box-shadow: 0px 13px 45px 0px rgba(47, 59, 119, 0.16);
 }
 
 .navbar ul li a.scrolled {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.navbar ul li a.scrolled:hover, .navbar ul li a.scrolled:focus  {
-    color: #00A7FF;
+.navbar ul li a.scrolled:hover,
+.navbar ul li a.scrolled:focus {
+  color: #00a7ff;
 }
- 
+
 .navbar a {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: .8% .8% .8% .8%;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.1rem;
-    color: #ffffff;
-    font-weight: 700;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 0.8% 0.8% 0.8% 0.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.1rem;
+  color: #ffffff;
+  font-weight: 700;
 }
 
-.navbar a:hover, .navbar a:focus {
-    color: #00A7FF
+.navbar a:hover,
+.navbar a:focus {
+  color: #00a7ff;
 }
 
 .navbar .navbar-nav .modal-btn {
-    float: right;
-    padding: 1.4% 2% 5% 2%;
-    text-align: center;
-    margin: -.66% -2% 0 1%;
-    background-color: #7E9500;
-    border-left-color: #7E9500;
-    -webkit-transition: background-color .5s ease-out;
-    transition: background-color .5s ease-out;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bolder;
-    -webkit-box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
-    box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.34);
-    font-size: .1rem;
+  float: right;
+  padding: 1.4% 2% 5% 2%;
+  text-align: center;
+  margin: -0.66% -2% 0 1%;
+  background-color: #7e9500;
+  border-left-color: #7e9500;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-box-shadow: -1px 3px 14px -1px rgba(0, 0, 0, 0.34);
+  box-shadow: -1px 3px 14px -1px rgba(0, 0, 0, 0.34);
+  font-size: 0.1rem;
 }
 
-.navbar .navbar-nav .modal-btn:hover, .navbar .navbar-nav .modal-btn:focus {
-    background-color:  #5A690C;
-    cursor: pointer;
-    border-left-color: #5A690C;
-    color: #ffffff;
+.navbar .navbar-nav .modal-btn:hover,
+.navbar .navbar-nav .modal-btn:focus {
+  background-color: #5a690c;
+  cursor: pointer;
+  border-left-color: #5a690c;
+  color: #ffffff;
 }
 
 p.logo-paragraph {
-    text-transform: lowercase;
-    font-size: .7rem;
-    font-weight: 100;
+  text-transform: lowercase;
+  font-size: 0.7rem;
+  font-weight: 100;
 }
 
 .logo-insight {
-    font-weight: 100;
-    margin-bottom: -6%;
+  font-weight: 100;
+  margin-bottom: -6%;
 }
 
 .navbar ul {
-    margin: 0.5% 0 0 0;
-    list-style: none;
+  margin: 0.5% 5% 0 0;
+  list-style: none;
 }
 
 /* navbar vertical line dividing date and menu */
 li.vertical-line-image-header {
-    margin-left: 48%;
+  margin-left: 48%;
 }
 
 /* navbar date of conference */
 .navbar .navbar-nav h4 {
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 900;
-    margin-left: 31%;
-    margin-bottom: -4%;
-    letter-spacing: .07rem;
-    padding-top: 1%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: 31%;
+  margin-bottom: -4%;
+  letter-spacing: 0.07rem;
+  padding-top: 1%;
 }
 
 /* Small screen */
-@media only screen  and (max-width: 900px) {
-    nav {
-        display: none;
-    }
-    .navbar a {
-        display: none;
-    }
+@media only screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+  .navbar a {
+    display: none;
+  }
 
-    .navbar .navbar-nav .modal-btn {
-        display: none;
-    }
+  .navbar .navbar-nav .modal-btn {
+    display: none;
+  }
 
-    .navbar.scrolled {
-        display: none;
-    }
+  .navbar.scrolled {
+    display: none;
+  }
 }
 
 /* Medium screens */
-@media only screen  and (min-width : 900px) and (max-width: 1299px) {
-    nav {
-        height: 8.4%;
-    }
+@media only screen and (min-width: 900px) and (max-width: 1299px) {
+  nav {
+    height: 8.4%;
+  }
 
-    .navbar a {
-        padding: 1% 2% 1% 2%;
-        font-size: 0.6rem;
-    }
+  .navbar a {
+    padding: 1% 2% 1% 2%;
+    font-size: 0.6rem;
+  }
 
-    .navbar .navbar-nav .modal-btn {
-        padding: 1.8% 4.5% 4% 2.5%;
-        font-size: 0.65rem;
-        font-weight: 900;
-    }
+  .navbar .navbar-nav .modal-btn {
+    padding: 1.8% 4.5% 4% 2.5%;
+    font-size: 0.65rem;
+    font-weight: 900;
+  }
 
-    .logo-marker {
-        height: 0%;
-        width: 13%;
-        float: left;
-    }
-    
-    .logo-marker img {
-        height: auto;
-        width: 100%;
-    }
+  .logo-marker {
+    height: 0%;
+    width: 13%;
+    float: left;
+  }
+
+  .logo-marker img {
+    height: auto;
+    width: 100%;
+  }
 }
-
 
 /* Extra-large screens */
-@media screen and ( min-width: 1300px ) {
-    nav {
-        height: 9%;
-    }
+@media screen and (min-width: 1300px) {
+  nav {
+    height: 9%;
+  }
 
-    .navbar a {
-        padding: 1.4% 2% 2% 2%;
-        font-size: 0.8125rem;
-    }
+  .navbar a {
+    padding: 1.4% 2% 2% 2%;
+    font-size: 0.8125rem;
+  }
 
-    .navbar .navbar-nav .modal-btn {
-        padding: 2% 4% 6% 3%;
-        font-size: 0.8125rem;
-    }
+  .navbar .navbar-nav .modal-btn {
+    padding: 2% 4% 6% 3%;
+    font-size: 0.8125rem;
+  }
 
-    .logo-marker {
-        height: 0%;
-        width: 13%;
-        float: left;
-    }
-    
-    .logo-marker img {
-        height: auto;
-        width: 100%;
-    }
+  .logo-marker {
+    height: 0%;
+    width: 13%;
+    float: left;
+  }
 
-    .navbar .navbar-nav h4 {
-        margin-bottom: -3.5%;
-        padding-top: 1.5%;
-    }
+  .logo-marker img {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar .navbar-nav h4 {
+    margin-bottom: -3.5%;
+    padding-top: 1.5%;
+  }
 }
-
